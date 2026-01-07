@@ -1,0 +1,43 @@
+instructor: 
+  name: Jill Naiman
+  email: jnaiman@illinois.edu
+  office: Online
+  office_hours: Thursdays, 11am-12:30pm
+tas:
+  -
+    name: Guangchun Zheng 
+    email: gzheng6@illinois.edu
+    office: online
+    office_hours: Tuesdays 8-10:30am and Fridays 3-5:30pm
+  -
+    name: Yiliu Tang 
+    email: yiliut2@illinois.edu
+    office: online
+    office_hours: Tuesdays 1-4pm, Wednesdays 8am-10am
+  -
+    name: Gaozheng Liu 
+    email: gl11@illinois.edu
+    office: online
+    office_hours: Mondays 4-6pm
+
+course:
+  name: Data Visualization
+  number: IS445
+  semester: Fall 2025
+  section: BCU-BCG
+  location: see Canvas
+  time: see Canvas
+  credit_hours: 4
+urls:
+  -
+    name: Slack
+    url: https://is445-bc-fa25.slack.com
+  - 
+    name: Canvas
+    url: https://canvas.illinois.edu/courses/58974
+  -
+    name: Course Materials
+    url: https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2025/
+  -
+    name: Github
+    url: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2025
