@@ -4,65 +4,14 @@ visible: true
 icon: undraw_monitor_iqpq.svg
 notitle: true
 examples:
-  - filename: inClass_week15.ipynb
-    type: ipynb
-    title: SciViz - In class notebook
-    description: Placeholder for in class coding for SciViz
-  - filename: prep_notebook_week15.ipynb
-    type: ipynb
-    title: SciViz - Prep Notebook
-    description: Prep notebook for this week for SciViz
-  - filename: inClass_week16.ipynb
-    type: ipynb
-    title: WordViz - In class notebook
-    description: Placeholder for in class coding
-  - filename: prep_notebook_wordcloud_part1.ipynb
-    type: ipynb
-    title: WordViz/Networks - Prep notebook
-    description: Prep notebook for this week, Part 1 - WordClouds
-  - filename: prep_notebook_networks_part2.ipynb
-    type: ipynb
-    title: NetworkViz - Prep Notebook
-    description: Prep notebook for this week, Part 2 - Network data
-  - filename: spring2019_prep_notebook.ipynb
-    type: ipynb
-    title: Examples from Spring 2019
+
 data:
-  - filename: single_dicom.h5
-    type: dataLink
-    title: Brain Scan (72Mb)
-    description: MRI scan of a brain
-    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/single_dicom.h5
-  - filename: galaxyFiles.zip
-    type: dataLink
-    title: Galaxy Particle Simulation files (77Mb)
-    description: Downsampled output files from a particle simulation of a galaxy merger
-    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/galaxyFiles.zip
-  - filename: IsolatedGalaxy.tar.gz
-    type: dataLink
-    title: Isolated Galaxy dataset (292 Mb)
-    description: A single snapshot in time of a grid simulation of an isolated galaxy 
-    link: http://yt-project.org/data/IsolatedGalaxy.tar.gz
-  - filename: othello.txt
-    type: dataLink
-    title: Text corpus from Othello
-    description: Full text from the play Othello from project Guthenburg
-    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/refs/heads/main/othello.txt
-  - filename: facebook_combined_sm000090_000010.txt
-    type: dataLink
-    title: Broad facebook data
-    description: Several small nodes facebook data
-    link:  https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/refs/heads/main/facebook_combined_sm000090_000010.txt
-  - filename: facebook_combined_sm000030_000000.txt
-    type: dataLink
-    title: Major node data
-    description: One major node facebook data
-    link:  https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/refs/heads/main/facebook_combined_sm000030_000000.txt
+
 ---
 
-# SciViz, Network Visualization & Word clouds
+# Work on Final Projects
 
-Final class, you made it!
+
 
 
 
