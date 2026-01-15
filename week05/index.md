@@ -1,48 +1,56 @@
 ---
 layout: week
 visible: true
-icon: undraw_under_construction_46pa.svg
+icon: undraw_data_reports_706v.svg
 notitle: true
 examples:
-  - filename: inClass_week05.ipynb
-    type: ipynb
-    title: In Class notebook
-    description: in Class notebook, Week 5
-  - filename: prep_notebook_week05.ipynb
-    type: ipynb
-    title: Prep Notebook, Week 5
+  - filename: inClass_week06.ipynb
+    type: ipynbInClass
+    title: In class Notebook, Week 6
     description: Prep notebook for this week
-  - filename: prep_notebook_week05_extras.ipynb
+  - filename: prep_notebook_week06.ipynb
     type: ipynb
-    title: Extra prep notebook
-    description: Extra prep notebook for Week 5
-  - filename: spring2019_notes_week04_part1.ipynb
+    title: Prep Notebook, Week 6
+    description: Prep notebook for this week
+  - filename: fall2019_examples_week05.ipynb
     type: ipynb
-    title: spring2019_notes_week04_part1.ipynb
-  - filename: spring2019_notes_week04_part2.ipynb
+    title: fall2019_examples_week05.ipynb
+  - filename: spring2019_notes_week05_part1.ipynb
     type: ipynb
-    title: spring2019_notes_week04_part2.ipynb
+    title: spring2019_notes_week05_part1.ipynb
+  - filename: spring2019_notes_week05_part2.ipynb
+    type: ipynb
+    title: spring2019_notes_week05_part2.ipynb
 data:
   - filename: building_inventory.csv
     type: dataLink
     title: Buildings dataset
     description: Illinois buildings dataset
     link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/building_inventory.csv
-  - filename: michigan_lld.flt
-    type: dataLink
-    title: Michigan Depth Map (86Mb)
-    description: Measurements taken from around Lake Michigan (https://www.ngdc.noaa.gov/mgg/greatlakes/michigan.html)
-    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/michigan_lld.flt
 ---
 
-# Beginning interactivity
+# Continuing interactivity with bqplot
 
-This week we will learn about ipywidgets and traitlets and apply them to visualizations in Python.
+Time to start talking about interactivity in more detail!
 
+During class today, we will explore creating interactive visualizations using
+bqplot.  For next week, we will discuss the taxonomy of interactive
+visualizations and how we can use that understanding to better guide our
+construction.
+
+ * [Narrative Visualization](http://doi.org/10.1109/TVCG.2010.179) by Segel and
+   Heer
+ * [Watch This: A Taxonomy for Dynamic Data Visualization](http://doi.org/10.1109/VAST.2012.6400552) by Cottam et al
+ * [FiveThirtyEight Datasets](https://github.com/fivethirtyeight/data)
+ 
+
+### Resources
+
+<!-- * <a href='wealth_of_nations.py' download>Wealth of Nations Library - wealth_of_nations.py</a> -->
+ * [Github pages: https://pages.github.com/](https://pages.github.com/)
 
 ## Optional Reading List
 
-1. <a href="https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Basics.html">Intro to ipywidgets</a> 
-2. <a href="https://github.com/jupyter-widgets/ipywidgets/blob/master/docs/source/examples/Index.ipynb">Example Widgets Notebooks</a> 
-3. VAD Ch. 7: Arrange Tables 
-4. <a href="https://clauswilke.com/dataviz/histograms-density-plots.html">FDV, Ch. 7: Visualizing distributions: Histograms and density plots</a>
+1. <a href="https://www.youtube.com/watch?v=rraXF0EjRC8">Video about bqplot</a> 
+2. <a href="https://towardsdatascience.com/a-comprehensive-guide-to-the-grammar-of-graphics-for-effective-visualization-of-multi-dimensional-1f92b4ed4149">An introduction to Grammar of Graphics</a> 
+3. <a href="https://ipywidgets.readthedocs.io/en/latest/">ipywidgets Docs</a>; <a href="https://traitlets.readthedocs.io/en/stable/">Traitlets Docs</a>; <a href="https://bqplot.readthedocs.io/en/latest/">bqplot Docs</a>

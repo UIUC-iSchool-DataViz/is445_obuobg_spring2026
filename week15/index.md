@@ -1,60 +1,91 @@
 ---
 layout: week
 visible: true
-icon: undraw_playing_fetch_cm19.svg
+icon: undraw_monitor_iqpq.svg
 notitle: true
 examples:
-  - filename: In Class Streamlit Files
-    type: iodide
-    title: In class Streamlit materials, Week 15
-    description: Updating storage of Streamlit files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2025/tree/master/week15/inClassStreamlit
-  - filename: Prep Streamlit Files
-    type: iodide
-    title: Prep Streamlit materials, Week 15
-    description: Updating storage of Streamlit files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2025/tree/master/week15/prepStreamlit
+  - filename: inClass_week15.ipynb
+    type: ipynb
+    title: SciViz - In class notebook
+    description: Placeholder for in class coding for SciViz
+  - filename: prep_notebook_week15.ipynb
+    type: ipynb
+    title: SciViz - Prep Notebook
+    description: Prep notebook for this week for SciViz
+  - filename: inClass_week16.ipynb
+    type: ipynb
+    title: WordViz - In class notebook
+    description: Placeholder for in class coding
+  - filename: prep_notebook_wordcloud_part1.ipynb
+    type: ipynb
+    title: WordViz/Networks - Prep notebook
+    description: Prep notebook for this week, Part 1 - WordClouds
+  - filename: prep_notebook_networks_part2.ipynb
+    type: ipynb
+    title: NetworkViz - Prep Notebook
+    description: Prep notebook for this week, Part 2 - Network data
+  - filename: spring2019_prep_notebook.ipynb
+    type: ipynb
+    title: Examples from Spring 2019
 data:
-  - filename: mobility.csv
+  - filename: single_dicom.h5
     type: dataLink
-    title: The Mobility dataset (online)
-    description: A dataset of USA "mobility" which (I <b>think</b> comes from a <a href="https://www.census.gov/library/working-papers/2018/adrm/CES-WP-18-40R.html">a large census study from 1989-2015</a>) and is collected in several places <a href="http://www.stat.cmu.edu/~cshalizi/uADA/15/hw/01/mobility.csv">including right here</a>.  Here "mobility" is refering to how easy it is for a person to move up in economic status (<a href="http://www.stat.cmu.edu/~cshalizi/uADA/15/hw/01/hw-01.pdf">more info can be found here</a>) based on factors like parental income, location, race, etc.
-    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv
-  - filename: building_inventory.csv
+    title: Brain Scan (72Mb)
+    description: MRI scan of a brain
+    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/single_dicom.h5
+  - filename: galaxyFiles.zip
     type: dataLink
-    title: Buildings dataset
-    description: Illinois buildings dataset
-    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/building_inventory.csv
-  - filename: corgs_per_country_over_time_columns_2020.csv
+    title: Galaxy Particle Simulation files (77Mb)
+    description: Downsampled output files from a particle simulation of a galaxy merger
+    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/galaxyFiles.zip
+  - filename: IsolatedGalaxy.tar.gz
     type: dataLink
-    title: Corgis per country over time 
-    description: This dataset is from the <a href="http://cardiped.net/">Cardigan Archives</a> and <a href="https://github.com/UIUC-iSchool-DataViz/spring2020/blob/master/week12/corg/grabCorgData_subpages.py">scraped using Beautiful Soup in Python</a> and <a href="https://github.com/UIUC-iSchool-DataViz/spring2020/blob/master/week12/corg/calc_corgData.ipynb">further processed in Python</a> into this form.
-    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/corgs_per_country_over_time_columns_2020.csv
-
+    title: Isolated Galaxy dataset (292 Mb)
+    description: A single snapshot in time of a grid simulation of an isolated galaxy 
+    link: http://yt-project.org/data/IsolatedGalaxy.tar.gz
+  - filename: othello.txt
+    type: dataLink
+    title: Text corpus from Othello
+    description: Full text from the play Othello from project Guthenburg
+    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/refs/heads/main/othello.txt
+  - filename: facebook_combined_sm000090_000010.txt
+    type: dataLink
+    title: Broad facebook data
+    description: Several small nodes facebook data
+    link:  https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/refs/heads/main/facebook_combined_sm000090_000010.txt
+  - filename: facebook_combined_sm000030_000000.txt
+    type: dataLink
+    title: Major node data
+    description: One major node facebook data
+    link:  https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/refs/heads/main/facebook_combined_sm000030_000000.txt
 ---
 
-# More with Streamlit/Jekyll
+# SciViz, Network Visualization & Word clouds
 
-We do a few more things with Streamlit and Jekyll.
+Final class, you made it!
 
 
-We talk a little bit about 3D graphics and how it relates to Scientific Visualization, and carry on with Streamlit/Jekyll and add in some Altair in Python.
+
+## Optional reading list
+1. VAD Ch. 8.4-8.6: Arrange Spatial Data 
+2. VAD Ch. 11.6: Manipulate View 
+3. <a href="https://yt-project.org/">yt docs</a> 
+4. <a href="https://yt-project.org/doc/visualizing/volume_rendering.html">yt Volume Rendering Tutorial</a>
+5. VAD Ch. 9: Arrange Networks and Trees 
+6. VAD, Ch. 13.4.3.1: Reduce Items and Attributes 
+7. VAD, Ch. 6: Rules of Thumb 
+8. [FDV, Ch. 28: Choosing the right visualization software](https://clauswilke.com/dataviz/choosing-visualization-software.html) 
+9. [FDV, Ch. 26: Don't go 3D](https://clauswilke.com/dataviz/no-3d.html) 
+10. [FDV, Ch. 25: Avoid line drawings](https://clauswilke.com/dataviz/avoid-line-drawings.html)
+
 
 Also, here is a slightly more in-depth explanation of path/ray tracing:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/frLwRLS_ZR0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Extra Resources
 
-
-## Extra files
-
-Full corgi dataset available [here](corg/corgiData_countries_full_2020.json).
-
-
-
-## Optional reading list
-
-1. <a href="https://streamlit.io/">Streamlit docs</a>
-2. <a href="https://huggingface.co/docs/hub/en/spaces-sdks-streamlit">Streamlit on HuggingFace</a> with a focus on <a href="https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app">Multi-page apps</a> 
-3. <a href="https://medium.com/@imanuelyosi/deploy-your-streamlit-web-app-using-hugging-face-7b9cddb11148">This blog post for a walkthrough of deploying a Streamlit space on HuggingFace</a> 
-4. <a href="https://books.google.com/books?hl=en&lr=&id=jUw7DwAAQBAJ&oi=fnd&pg=PA91&dq=scientific+visualization+misinformation&ots=Cv0QmoCdM2&sig=7xycURu8Um_C9VtHqf-aWg4qaEo#v=onepage&q=scientific%20visualization%20misinformation&f=false">Chapter 5: Dimensions of Visual Misinformation in the Emerging Media Landscape in the book "Misinformation and Mass Audiences"</a>
+ * <a href='https://github.com/UIUC-iSchool-DataViz/spring2019online/tree/master/week09/data'>More facebook data</a>
+ * <a href='https://snap.stanford.edu/data/'>Variety of SNAP datasets</a>
+ * <a href='https://snap.stanford.edu/data/ego-Facebook.html'>We used this SNAP dataset</a>
+ * <a href='https://github.com/jcatw/snap-facebook'>Python Library to parse snap facebook data</a>
