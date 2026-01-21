@@ -4,8 +4,8 @@ layout: lecture
 description: >-
   The syllabus for the course, along with discussions about "what"
   visualizations are, and how to orient yourself in the course.
-
-date: 2025-08-25
+date: 2026-01-21
+class_webpage: https://uiuc-ischool-dataviz.github.io/is445_obuobg_spring2026
 ---
 
 <!-- JPN: also check links to all external images -->
@@ -20,11 +20,16 @@ Website.](https://chancellor.illinois.edu/land_acknowledgement.html)
 notes:
 we are on a land-grant institution, please see the link on the chancellors page for more info about this
 
+**go to data viz about it **
+
 ---
 
 ## Absences/Emergencies/Illness Policies
 
-Please see the statement about policies related to Emergencies/Illness on [the Syllabus](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2025/syllabus.html).
+Please see the statement about policies related to Emergencies/Illness on [the Syllabus](https://uiuc-ischool-dataviz.github.io/is445_obuobg_spring2026/syllabus.html)
+
+<!-- Please see the statement about policies related to Emergencies/Illness on the Syllabus: PAGE_CLASS_WEBPAGE /syllabus.html -->
+
 
 <!-- <a href={{site.url}}/{{site.baseurl}}/"syllabus.html">the Syllabus</a>.
 -->
@@ -38,10 +43,10 @@ Please see the statement about policies related to Emergencies/Illness on [the S
 
 <!-- JPN, update! -->
 
-~90 for this course!
+~50 for this course!
 
 **Strategies:**
- * a total of >10 hours of office hours (Prof+TA's) every week 
+ * a total of \~10 hours of office hours (Prof+TA's) every week 
  * utilize Slack for general question/answer
  * group options for final project
 
@@ -68,16 +73,13 @@ finally, we have several assignments that can be turned in as a group to allow f
 Jill P. Naiman - `jnaiman@illinois.edu`
  * Office Hours: Thursdays 11am-12:30pm (online)
 
-TA: Guangchun Zheng  - `gzheng6@illinois.edu`
- * Office Hours: Tuesdays 8-10:30am and Fridays 3-5:30pm (online)
-
-TA: Yiliu Tang - `yiliut2@illinois.edu`
- * Office Hours: Tuesdays 1-4pm, Wednesdays 8am-10am (online)
+TA: Lucian Li - `zilul2@illinois.edu`
+ * Office Hours: TBD (online)
 
 TA: Gaozheng Liu - `gl11@illinois.edu`
- * Office Hours: Mondays 4-6pm (online)
+ * Office Hours: TBD (online)
 
-Course website: https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2025/
+Course website: https://uiuc-ischool-dataviz.github.io/is445_obuobg_spring2026/
 
 
 Online -- access through Zoom Meetings.
@@ -102,13 +104,13 @@ Now, the website!
 
 ## In summary: where things will be located:
 
- * Canvas: https://canvas.illinois.edu/courses/58974 - where the grades and assignments links will be posted
+ * Canvas: https://canvas.illinois.edu/courses/64830 - where the grades and assignments links will be posted
  
- * PrairieLearn: https://us.prairielearn.com/pl/course_instance/187129 - where assignments will be completed
+ * PrairieLearn: https://us.prairielearn.com/pl/course_instance/204190/assessments - where assignments will be completed
 
- * Course webpage: https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2025/ - where lecture slides, notebooks, data & general course info will live.
+ * Course webpage: https://uiuc-ischool-dataviz.github.io/is445_obuobg_spring2026/ - where lecture slides, notebooks, data & general course info will live.
 
- * Slack: [https://is445-bc-fa25.slack.com/](https://join.slack.com/t/is445-bc-fa25/shared_invite/zt-3bj21az1i-eKZKeM4pyIMaqLU3vebjTA) (workspace name is is445-bc-fa2025) - the best place to ask questions in a `#homeworkX-questions` channel (or the `#general` channel for general questions)
+ * Slack: [https://is445-ob-sp26.slack.com/](https://join.slack.com/t/is445-ob-sp26/shared_invite/zt-3nlxwigx2-uAKm2J3UFFcPsSNZMLHr0A) (workspace name is is445-ob-sp26) - the best place to ask questions in a `#homeworkX-questions` channel 
  
 notes:
 
@@ -230,7 +232,7 @@ about these types of data, and how we approach visualizing them.
 
 <!-- JPN, update -->
 
-## In a group of ~4-5 people 
+## In a breakout group (of ~4-5 people) 
 
 Visualize the results of your group's collective "data".
 
@@ -240,6 +242,8 @@ Visualize the results of your group's collective "data".
 * How many hours do you spend online in classes each week?
 
 Don't forget to say hi to each other!
+
+Miro Board Link (check Zoom chat for password): https://miro.com/app/board/uXjVGMuxl6c=/?share_link_id=725801257421
 
 <!--
 Miro Board link: https://miro.com/app/board/uXjVLq47Pvc=/?share_link_id=451051165669
@@ -271,13 +275,13 @@ We have to do it!
 ## Syllabus
 
  * Week 1 (Today) - Introduction
- * Week 2 -- Labor Day Holiday! (no classes)
- * Week 3 - Data Storage and Operations
- * Week 4 - Types of Viz and Choosing Colors
- * Week 5 - Beginning interactivity
- * Week 6 - Continuing interactivity with bqplot
- * Week 7 - More with dashboards & Map Viz (**this class might be "flipped"**)
- * Week 8 - Maps, maps and more maps
+ * Week 2 - Data Storage and Operations
+ * Week 3 - Types of Viz and Choosing Colors
+ * Week 4 - Beginning interactivity
+ * Week 5 - Continuing interactivity with bqplot
+ * Week 6 - More with dashboards & Map Viz (**this class is "flipped"**)
+ * Week 7 - Maps, maps and more maps
+ * Week 8 - Intro to Vega-lite/Altair
  
 notes:
 This is a rough syllabus!  These are many of the topics we will cover, but
@@ -301,13 +305,12 @@ We might start getting into javascript earlier, depending on how we are doing.
 
 ## Syllabus, cont
 
- * Week 9 - Intro to Vega-lite/Altair
+ * Week 9 - Spring Break!  No class!
  * Week 10 - Viz Audience; Intro to Jekyll
- * Week 11 - More Jekyll+Altair+vega-lite things
- * Week 12 - Intro to Streamlit <-- Prof. Jill out of town, different course modality
+ * Week 11 - More Jekyll+Altair+vega-lite things <-- Prof. Jill maybe gone, different modality
+ * Week 12 - Intro to Streamlit 
  * Week 13 - Streamlit Apps in HuggingFace
- * Week 14 - Fall break! (no classes)
- * Week 15 - A few more Streamlit+HuggingFace things; Publishing Viz
+ * Week 14 - A few more Streamlit+HuggingFace things; Publishing Viz
  * Week 15 - Scientific Viz & AVL Guest lecture (**partially flipped class**)
  * Week 16 - Network Visualization & Word clouds (**flipped class**)
 
@@ -372,12 +375,12 @@ or
 
 Equivalent informal Python background
 
-Extra coding help: https://ischool.illinois.edu/student-life/academic-support-center (see Tutoring by Subject and Skill)
+Extra coding help: https://ischool.illinois.edu/student-life/academic-support-center (see Tutoring by Subject and Skill, changes frequently)
 
 notes:
 that being said, I have had students that were just starting off in their programming journeys be successful in this class, but just be aware its going to require extra time commitment
 
-In addition to all of the hours of office hours, you should check out the academic support center, in particular the Tutoring by Subject and Skill where you can find Python tutors
+In addition to all of the hours of office hours, you should check out the academic support center, in particular the Tutoring by Subject and Skill where you can find Python tutors (sometimes)
 
 ---
 
@@ -393,7 +396,7 @@ or
 
 Equivalent informal Python background
 
-Extra coding help: https://ischool.illinois.edu/student-life/academic-support-center (see Tutoring by Subject and Skill)
+Extra coding help: https://ischool.illinois.edu/student-life/academic-support-center (see Tutoring by Subject and Skill, changes frequently)
 
 If you already know a good bit of viz for the web - check out [IS545, Advanced Data Visualization](https://ischool.illinois.edu/degrees-programs/courses/is545).
 
@@ -630,7 +633,7 @@ and those that are considered "prepratory" for the final project
  * Two extra credit options, assigned toward end of class
  * 40% of grade (maximum, including extra credit), lowest score dropped except for required assignments
  * A total of 6 Homeworks in the course
- * Generally due on Wednesdays (but always double check the due dates!)
+ * Generally due on Fridays (but always double check the due dates!)
  
 notes:
 Just a few more details about homework type assignments
@@ -645,7 +648,7 @@ Just a few more details about homework type assignments
  * Can be attempted multiple times before the due date 
  * 25% of grade, no assignments dropped
  * 8 Labs in the course
- * Generally due on Wednesdays (but always double check the due dates!)
+ * Generally due on Fridays (but always double check the due dates!)
 
  
 notes:
@@ -662,7 +665,7 @@ We will also have time in class, typically toward the end of class, for you to w
  * Graded automatically on PrairieLearn
  * Can be attempted multiple times *with decreasing scores*
  * ~10 Quizzes in the course 
- * Generally due on *Mondays* before class (but always double check the due dates!)
+ * Generally due on *Wednesdays* before class (but always double check the due dates!)
  
 notes:
 Quizzes are meant to be quick checks of the material covered in class
@@ -680,7 +683,7 @@ You can repeat quiz questions multiple times, however you will be peanalized for
  * Graded automatically on PrairieLearn
  * Can be attempted multiple times *with decreasing scores*
  * ~10 Quizzes in the course 
- * Generally due on *Mondays* before class (but always double check the due dates!)
+ * Generally due on *Wednesdays* before class (but always double check the due dates!)
 
 
  **If you see a 0% on PrairieLearn until a certain date this means you can "preview" the assignment, but should not submit it for credit (for Quizzes, this means don't open it yet!).**
@@ -700,8 +703,8 @@ don't open quizzes before the 100% date! it will start the quiz timer and you wo
 
 <!-- JPN come and change -->
 
-* Homeworks/Labs -- Wednesdays (generally)
-* Quizzes -- Mondays (generally)
+* Homeworks/Labs -- Fridays (generally)
+* Quizzes -- Wednesdays (generally)
 
 Canvas and PrairieLearn due dates *should* be in sync, but when in doubt *follow the PrairieLearn due dates*.
 
@@ -711,7 +714,7 @@ Canvas and PrairieLearn due dates *should* be in sync, but when in doubt *follow
 
 See the course syllabus: 
 
-https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2025/syllabus.html
+https://uiuc-ischool-dataviz.github.io/is445_obuobg_spring2026/syllabus.html
 
 notes:
 These are TOTally optional - more on that in a minute.
@@ -785,7 +788,7 @@ what they represent, not because they are the only paths to success.
 We will be sharing a slack channel with the in-person class, so feel free to
 converse with them as well!
 
- * Team channel at [`https://is445-bc-fa25.slack.com/`](https://join.slack.com/t/is445-bc-fa25/shared_invite/zt-3bj21az1i-eKZKeM4pyIMaqLU3vebjTA) 
+ * Team channel at [https://is445-ob-sp26.slack.com/](https://join.slack.com/t/is445-ob-sp26/shared_invite/zt-3nlxwigx2-uAKm2J3UFFcPsSNZMLHr0A) 
    * `#general` : General announcements, place to ask questions
    * `#random` : see a cool viz you want to share?  This is the place!
    * `#introductions` : where you want to "say hi" for Homework #1
@@ -835,7 +838,7 @@ personal messages on slack will be treated as email and we'll get back to you wi
 
 ## How do I access Slack?
 
- * Your @illinois email should be added, just go to: [is445-bc-fa25.slack.com](https://join.slack.com/t/is445-bc-fa25/shared_invite/zt-3bj21az1i-eKZKeM4pyIMaqLU3vebjTA)
+ * Your @illinois email should be added, just go to: [https://is445-ob-sp26.slack.com/](https://join.slack.com/t/is445-ob-sp26/shared_invite/zt-3nlxwigx2-uAKm2J3UFFcPsSNZMLHr0A)
  * Send me an email with _your_ email
 
 ---
@@ -844,8 +847,8 @@ personal messages on slack will be treated as email and we'll get back to you wi
 
 <!-- JPN: check all these links -->
 
- * Course repo is at [UIUC-iSchool-DataViz/is445_bcubcg_fall2025/](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2025/) 
- * Automatically built to [uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2025/](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2025/)  
+ * Course repo is at [UIUC-iSchool-DataViz/is445_obuobg_spring2026/](https://github.com/UIUC-iSchool-DataViz/is445_obuobg_spring2026/) 
+ * Automatically built to [uiuc-ischool-dataviz.github.io/is445_obuobg_spring2026/](https://uiuc-ischool-dataviz.github.io/is445_obuobg_spring2026/)  
 
 notes:
 All the materials for this course will be stored in github, and are available

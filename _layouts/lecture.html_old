@@ -40,7 +40,6 @@
               <h2>{{site.data.class.instructor.name}}</h2>
               <h2>{{site.data.class.course.name}} - {{site.data.class.course.semester}}</h2>
           </section>
-          <!--
         <section data-markdown
            data-separator="^\n---\n"
            data-separator-vertical="^\n----\n">
@@ -48,35 +47,6 @@
 {{page.content}}
           </script>
         </section>
-      -->
-        <!--
-<section data-markdown
-   data-separator="^\n---\n"
-   data-separator-vertical="^\n----\n">
-  <script type="text/template">
-{% capture slides %}
-{{ page.content }}
-{% endcapture %}
-{{ slides | replace: "PRESENTATION_TIME_PLACEHOLDER", page.presentation_time }}
-  </script>
-</section>  
--->
-<section data-markdown
-   data-separator="^\n---\n"
-   data-separator-vertical="^\n----\n">
-  <script type="text/template">
-  {% capture slides %}
-  {{ page.content }}
-  {% endcapture %}
-  {% assign processed = slides %}
-  {% for item in page %}
-    {% assign placeholder = "PAGE_" | append: item[0] | upcase %}
-    {% assign processed = processed | replace: placeholder, item[1] %}
-  {% endfor %}
-  {{ processed }}
-  </script>
-</section>
-
       </div>
     </div>
 <script>
@@ -92,7 +62,7 @@
         margin: 0.02,
         plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath],
         dependencies: [
-            { src: 'https://cdn.jsdelivr.net/npm/reveald3/reveald3.js'}
+            { src: 'https://cdn.jsdelivr.net/npm/reveald3@1.5.5/reveald3.js'}
         ],
 		keyboard: {
 		},
