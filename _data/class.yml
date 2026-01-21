@@ -2,11 +2,16 @@ instructor:
   name: Jill Naiman
   email: jnaiman@illinois.edu
   office: Online
-  office_hours: TBD
+  office_hours: Thursdays, 11am-12:30pm
 tas:
   -
     name: Gaozheng Liu 
     email: gl11@illinois.edu
+    office: online
+    office_hours: TBD
+  -
+    name: Lucian Li 
+    email: zilul2@illinois.edu
     office: online
     office_hours: TBD
 
