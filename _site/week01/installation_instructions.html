@@ -175,7 +175,7 @@ Here is a ~5 minute movie of how this process looks on my Mac (it may take longe
 <h3 id="21-conda-environment">2.1 Conda environment</h3>
 <ol>
   <li>On a Mac search for the “Terminal” prompt/on Windows search for the “Anaconda Prompt” (NOT the navigator)</li>
-  <li>In the terminal window type: <code class="language-plaintext highlighter-rouge">conda create -n DataViz python=3.10 seaborn plotly pygraphviz pandas matplotlib bqplot=0.12.30 numpy regex networkx openssl altair yt geopandas gdal rasterio shapely pyproj rtree fiona pillow palettable h5py contextily webcolors openpyxl ipyleaflet vega_datasets nltk wordcloud pip -c conda-forge ; conda activate DataViz ; pip install streamlit</code></li>
+  <li>In the terminal window type: <code class="language-plaintext highlighter-rouge">conda create -n DataViz python=3.12 seaborn plotly pygraphviz pandas matplotlib bqplot=0.12.30 numpy regex networkx openssl altair yt geopandas gdal rasterio shapely pyproj rtree fiona pillow palettable h5py contextily webcolors openpyxl ipyleaflet vega_datasets nltk wordcloud pip -c conda-forge ; conda activate DataViz ; pip install streamlit</code></li>
 </ol>
 
 <h4 id="do-not-try-to-install-these-packages-one-at-a-time">DO NOT TRY TO INSTALL THESE PACKAGES ONE AT A TIME</h4>
@@ -206,7 +206,7 @@ Here is a ~5 minute movie of how this process looks on my Mac (it may take longe
 
 <p>HERE NEEDS TO BE FIXED</p>
 
-<p>If the install fails or there are package conflicts you can try with Python 3.8 or Python 3.9.  For example to re-install with Python 3.8 the command becomes: <code class="language-plaintext highlighter-rouge">conda create -n DataViz python=3.8 seaborn plotly pygraphviz pandas matplotlib=3.2.2 bqplot=0.12.30 numpy regex networkx openssl altair yt geopandas gdal rasterio shapely pyproj rtree fiona pillow palettable h5py contextily webcolors openpyxl ipyleaflet vega_datasets nltk wordcloud -c conda-forge ; conda activate DataViz ; pip install streamlit</code></p>
+<p>If the install fails or there are package conflicts you can try with Python 3.9/3.10/3.11.  For example to re-install with Python 3.10 the command becomes: <code class="language-plaintext highlighter-rouge">conda create -n DataViz python=3.10 seaborn plotly pygraphviz pandas matplotlib=3.2.2 bqplot=0.12.30 numpy regex networkx openssl altair yt geopandas gdal rasterio shapely pyproj rtree fiona pillow palettable h5py contextily webcolors openpyxl ipyleaflet vega_datasets nltk wordcloud -c conda-forge ; conda activate DataViz ; pip install streamlit</code></p>
 
 <h2 id="3-run--test-your-environment">3. Run &amp; Test your environment</h2>
 
@@ -221,7 +221,7 @@ Here is a ~5 minute movie of how this process looks on my Mac (it may take longe
   <li>then type <code class="language-plaintext highlighter-rouge">jupyter notebook</code> to open the notebook from the command line</li>
 </ol>
 
-<h3 id="32-test-the-installs-this-is-part-of-the-first-hw-do-once">3.2. Test the installs (this is part of the first HW, do once)</h3>
+<h3 id="32-test-the-installs-this-is-part-of-the-first-hw-on-prairielearn">3.2. Test the installs (this is part of the first HW on PrairieLearn)</h3>
 
 <ol>
   <li><a href="https://uiuc-ischool-dataviz.github.io/is445_oauoag_spring2023/week01/test_imports_week01.ipynb">Download the test install script - test_imports_week01</a>, open it with your jupyter notbeook and run it cell-by-cell</li>

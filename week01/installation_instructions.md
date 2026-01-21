@@ -57,7 +57,7 @@ Here is a ~5 minute movie of how this process looks on my Mac (it may take longe
 <!-- JPN: recreate this enviroment -->
 ### 2.1 Conda environment
  1. On a Mac search for the "Terminal" prompt/on Windows search for the "Anaconda Prompt" (NOT the navigator)
- 2. In the terminal window type: `conda create -n DataViz python=3.10 seaborn plotly pygraphviz pandas matplotlib bqplot=0.12.30 numpy regex networkx openssl altair yt geopandas gdal rasterio shapely pyproj rtree fiona pillow palettable h5py contextily webcolors openpyxl ipyleaflet vega_datasets nltk wordcloud pip -c conda-forge ; conda activate DataViz ; pip install streamlit`
+ 2. In the terminal window type: `conda create -n DataViz python=3.12 seaborn plotly pygraphviz pandas matplotlib bqplot=0.12.30 numpy regex networkx openssl altair yt geopandas gdal rasterio shapely pyproj rtree fiona pillow palettable h5py contextily webcolors openpyxl ipyleaflet vega_datasets nltk wordcloud pip -c conda-forge ; conda activate DataViz ; pip install streamlit`
  
 #### DO NOT TRY TO INSTALL THESE PACKAGES ONE AT A TIME
 
@@ -87,7 +87,7 @@ A successful installation is indicated by seeing the following:
 
 HERE NEEDS TO BE FIXED
 
-If the install fails or there are package conflicts you can try with Python 3.8 or Python 3.9.  For example to re-install with Python 3.8 the command becomes: `conda create -n DataViz python=3.8 seaborn plotly pygraphviz pandas matplotlib=3.2.2 bqplot=0.12.30 numpy regex networkx openssl altair yt geopandas gdal rasterio shapely pyproj rtree fiona pillow palettable h5py contextily webcolors openpyxl ipyleaflet vega_datasets nltk wordcloud -c conda-forge ; conda activate DataViz ; pip install streamlit`
+If the install fails or there are package conflicts you can try with Python 3.9/3.10/3.11.  For example to re-install with Python 3.10 the command becomes: `conda create -n DataViz python=3.10 seaborn plotly pygraphviz pandas matplotlib=3.2.2 bqplot=0.12.30 numpy regex networkx openssl altair yt geopandas gdal rasterio shapely pyproj rtree fiona pillow palettable h5py contextily webcolors openpyxl ipyleaflet vega_datasets nltk wordcloud -c conda-forge ; conda activate DataViz ; pip install streamlit`
 
 
 
@@ -102,7 +102,7 @@ If the install fails or there are package conflicts you can try with Python 3.8 
  1. after all installs are done type `conda activate DataViz` in the terminal window/anaconda prompt
  2. then type `jupyter notebook` to open the notebook from the command line
  
-### 3.2. Test the installs (this is part of the first HW, do once)
+### 3.2. Test the installs (this is part of the first HW on PrairieLearn)
 
  1. [Download the test install script - test_imports_week01](https://uiuc-ischool-dataviz.github.io/is445_oauoag_spring2023/week01/test_imports_week01.ipynb), open it with your jupyter notbeook and run it cell-by-cell
  

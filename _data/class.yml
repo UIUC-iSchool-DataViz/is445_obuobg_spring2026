@@ -21,7 +21,7 @@ course:
 urls:
   -
     name: Slack
-    url: TBD
+    url: https://is445-ob-sp26.slack.com
   - 
     name: Canvas
     url: https://canvas.illinois.edu/courses/64830
