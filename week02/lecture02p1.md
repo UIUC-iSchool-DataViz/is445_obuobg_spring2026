@@ -17,18 +17,15 @@ date: 2025-09-08
 ## How to get help
 
 Jill P. Naiman - `jnaiman@illinois.edu`
- * Office Hours: Thursdays 11am-12:30pm (online)
+ * Office Hours: Thursdays 12:30-2pm (online)
 
-TA: Guangchun Zheng  - `gzheng6@illinois.edu`
- * Office Hours: Tuesdays 8-10:30am and Fridays 3-5:30pm (online)
-
-TA: Yiliu Tang - `yiliut2@illinois.edu`
- * Office Hours: Tuesdays 1-4pm, Wednesdays 8am-10am (online)
+TA: Lucian Li - `zilul2@illinois.edu`
+ * Office Hours: Tuesdays and Thursdays, 5-7pm (online)
 
 TA: Gaozheng Liu - `gl11@illinois.edu`
- * Office Hours: Mondays 4-6pm (online)
+ * Office Hours: TBD (online)
 
-See [Zoom Meeting Room on Canvas](https://canvas.illinois.edu/courses/58974/external_tools/327) to access meeting links.
+See Zoom Meeting Room on Canvas to access meeting links.
 
  
 Other: 
@@ -38,13 +35,13 @@ Other:
 
 ## Where resources are be located
 
- * Canvas: https://canvas.illinois.edu/courses/58974 - where the grades and assignments links will be posted
+* Canvas: https://canvas.illinois.edu/courses/64830 - where the grades and assignments links will be posted
  
- * PrairieLearn: https://us.prairielearn.com/pl/course_instance/187129 - where assignments will be completed
+* PrairieLearn: https://us.prairielearn.com/pl/course_instance/204190/assessments - where assignments will be completed
 
- * Course webpage: https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2025/ - where lecture slides, notebooks, data & general course info will live.
+* Course webpage: https://uiuc-ischool-dataviz.github.io/is445_obuobg_spring2026/ - where lecture slides, notebooks, data & general course info will live.
 
- * Slack: [https://is445-bc-fa25.slack.com/](https://join.slack.com/t/is445-bc-fa25/shared_invite/zt-3bj21az1i-eKZKeM4pyIMaqLU3vebjTA) (workspace name is is445-bc-fa2025) - the best place to ask questions in a `#assignmentX-questions` channel 
+* Slack: [https://is445-ob-sp26.slack.com/](https://join.slack.com/t/is445-ob-sp26/shared_invite/zt-3nlxwigx2-uAKm2J3UFFcPsSNZMLHr0A) (workspace name is is445-ob-sp26) - the best place to ask questions in a `#homeworkX-questions` channel 
    * all quiz questions on channel `#quiz-questions`
  
 notes:
@@ -74,7 +71,7 @@ and those that are considered "preparatory" for the final project
 
 ## Assignment Listings
 
-Current assignment list on PrairieLearn: https://us.prairielearn.com/pl/course_instance/187129/assessments
+Current assignment list on PrairieLearn: https://us.prairielearn.com/pl/course_instance/204190/assessments
  * caveat - 0% until official "assigned" week (or we are finished testing, see upper-left ? box)
 
 notes:
@@ -94,7 +91,7 @@ There is a ~6 hour "time out" for the quiz -- you cannot close and re-open the a
 
 ## Strong suggestion: Use the order on PrairieLearn
 
-![order should be quizzes, then labs, then homeworks](images/plorder.png)
+![Showing suggested order of completing assignments on PrairieLearn: order should be quizzes, then labs, then homeworks.](images/plorder.png)
 
 notes:
 so you should do quizzes, then labs, then HWs
@@ -156,7 +153,7 @@ There are 3 pathways (that I can see in this course, could be more!)
 
 ## Today
 
-<img src="images/data_viz_diagram.png">
+<img src="images/data_viz_diagram.png" alt="Mind-map of the course with just this week's materials.  These include programming (with reading and filtering data) and data management (with data processing and storage).">
 
 notes:
 
@@ -170,7 +167,7 @@ We'll talk a bit about the kinds of data that are out there and their definition
 
 <!-- <img src="https://mldoodles.com/eptoobym/2021/10/Data-Types-in-Machine-Learning-1024x1024.png" width=650>-->
 
-<img src="https://365datascience.com/resources/blog/xzk3rl06exk-data-types.jpeg">
+<img src="https://365datascience.com/resources/blog/xzk3rl06exk-data-types.jpeg" alt="Data types, first split into qualitative/categorical and quantitative. Qualitative is further split into ordinal (example: test grade) and nominal (example: nationality).  Quantitative is split into continuous (example: distance)and discrete (example: cats).">
 
 notes:
 So, usually you're probably used to thinking about data like this - numerical or quantitative which is then broken down into discrete & continuous.
@@ -183,7 +180,7 @@ Also categorical or qualitative data which is either ordered (ordinal) or unorde
 
 <!-- <img src="https://mldoodles.com/eptoobym/2021/10/Data-Types-in-Machine-Learning-1024x1024.png" width=650>-->
 
-<img src="https://365datascience.com/resources/blog/xzk3rl06exk-data-types.jpeg">
+<img src="https://365datascience.com/resources/blog/xzk3rl06exk-data-types.jpeg" alt="Data types, first split into qualitative/categorical and quantitative. Qualitative is further split into ordinal (example: test grade) and nominal (example: nationality).  Quantitative is split into continuous (example: distance)and discrete (example: cats).">
 
 
 We need to dig a little deeper for data viz.
@@ -196,10 +193,10 @@ This is a fine for something like stats, but we have to start thinking about how
 ## Data organization is important
 
 <div class="left">
-	<img src="images/tamaraSlide.png" width=450>
+	<img src="images/tamaraSlide.png" width=450 alt="Diagram of spatial data.  Fields are shown as continuous variables over a grid of positions in a cylindrical space.  Geometry is shown as individual points on a map.">
 </div>
 <div class="right">
-    <img src="images/tamaraTables.png" width=350>
+    <img src="images/tamaraTables.png" width=350 alt="A diagram of a table showing a cell as the meeting point of attributes (columns) and items (rows).">
 	 - Munzner - https://www.cs.ubc.ca/~tmm/talks.html
 
 </div>
