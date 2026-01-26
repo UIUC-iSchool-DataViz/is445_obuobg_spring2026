@@ -252,13 +252,13 @@ Similarly for categorical data like with an organization, network, or a tree -- 
 
 <div class="left">
 
-<img src="https://clauswilke.com/dataviz/aesthetic_mapping_files/figure-html/temp-normals-vs-time-1.png" width="400px">
+<img src="https://clauswilke.com/dataviz/aesthetic_mapping_files/figure-html/temp-normals-vs-time-1.png" width="400px" alt="A line graph showing temperature fluctuations for a year in Death Valley, Houston, San Diego, Chicago.">
 
 </div>
 
 <div class="right">
 
-<img src="https://clauswilke.com/dataviz/coordinate_systems_axes_files/figure-html/temperature-normals-polar-1.png" width="400px">
+<img src="https://clauswilke.com/dataviz/coordinate_systems_axes_files/figure-html/temperature-normals-polar-1.png" width="400px" alt="A circle graph showing temperature fluctuations for a year in Death Valley, Houston, San Diego, Chicago.">
 
 </div>
 
@@ -289,12 +289,12 @@ The first graph tell us a lot, and the 2nd may at first be a little weird to rea
 <div class="right" markdown=1>
 
 <!--![](/is445_obuobg_spring2026/week02/diagrams/row_col.svg)-->
-<img src="diagrams/row_col.svg" alt="drawing" width="150"/>
+<img src="diagrams/row_col.svg" alt="Diagram showing column/row." width="150"/>
 
 <!--![](diagrams/hdf5pic.png)-->
-<img src="images/hdf5pic.png" alt="drawing" width="250"/>
+<img src="images/hdf5pic.png" alt="Screenshot of information and layout of an HDF5 file." width="250"/>
 
-<img src="images/jsonex.png" alt="drawing" width="150"/>
+<img src="images/jsonex.png" alt="Screenshot of the data layout of a JSON file." width="150"/>
 
 </div>
 
@@ -327,12 +327,12 @@ REST = REpresentational State Transfer - web architecture that keeps clients and
 <div class="right" markdown=1>
 
 <!--![](/is445_obuobg_spring2026/week02/diagrams/row_col.svg)-->
-<img src="diagrams/row_col.svg" alt="drawing" width="150"/>
+<img src="diagrams/row_col.svg" alt="Diagram showing column/row." width="150"/>
 
 <!--![](diagrams/hdf5pic.png)-->
-<img src="images/hdf5pic.png" alt="drawing" width="250"/>
+<img src="images/hdf5pic.png" alt="Screenshot of information and layout of an HDF5 file." width="250"/>
 
-<img src="images/jsonex.png" alt="drawing" width="150"/>
+<img src="images/jsonex.png" alt="Screenshot of the data layout of a JSON file." width="150"/>
 
 </div>
 
@@ -344,7 +344,10 @@ Today, we'll be focusing in on CSV files in the programming part of the course, 
 
 ## The "simple" pipeline
 
-<!-- .slide: data-background-image="images/viz_diagram.svg.png" data-background-size="contain"-->
+
+<br><br><br>
+
+<img src="images/viz_newdiagram.png" alt="Diagram first showing data stored on file, linked to a data reader (example is Python code), then linked to the visualization.">
 
 notes: what we want is something like this where we have some data, we load it into Python/javascript/whatever and then we make a super cool viz.
 
@@ -354,7 +357,7 @@ notes: what we want is something like this where we have some data, we load it i
 
 From Elizabeth Wickes' talk: https://zenodo.org/record/3563145#.XjdvdRNKgtc
 
-<img src="images/elliexWickesTalk.png">
+<img src="images/elliexWickesTalk.png" alt="Marked up example code from plotly and Pandas documentation used to make a plot showing.  The image has been marked up to show where each assumption about the data is being made in the documentation (for example, that the data has specific columns or is structured as a table).">
 
 notes:
 We know that this is not easy though! Especially for "complicated" data like we might run into out in the wild. While most of the data we'll use here will be less messy than "out in the wild" data, we nevertheless need to figure out how to process it a bit.
@@ -363,7 +366,9 @@ There are several great examples of this from Elizabeth Wickes' talks linked her
 
 ---
 
-<!-- .slide: data-background-image="images/viz_diagram2.svg.png" data-background-size="contain"-->
+<br><br><br>
+
+<img src="images/viz_newdiagram2.png" alt="Diagram first showing data stored on file, linked to a data reader (example is Python code), then linked to the visualization.  An arrow and pop out text highlights that the middle, data reader portion uses embedded or custom data readers.">
 
 notes:
 Usually we are going to be able to make use of readers, but in the prep notebook from this week there is an example of how one would construct a data reader "by hand" if you'd like to look that over, just for fun!
@@ -438,7 +443,7 @@ These formats are more efficient when the information you're interested in is ad
 
 ## CSV (Comma-separated values)
 
-![](/is445_obuobg_spring2026/week02/images/automobilesCSV.png)
+![Shows the top of a CSV file for the popular "automobiles" dataset with comma separated columns of mpg,cyl,displ,hp,weight,accel,yr,origin,name.](/is445_obuobg_spring2026/week02/images/automobilesCSV.png)
 
  * "Lowest-common denominator format" (widest available)
  * Flexible delimiters 
@@ -485,7 +490,7 @@ If we assume ASCII encoding, this becomes:
 |"390" <!-- .element: class="table-hl" --> | 51 | 57 | 48 |
 <!-- .element: style="margin-left: 0.2em;" -->
 
-![](/is445_obuobg_spring2026/week02/images/ASCII-Table2.jpeg)
+![ASCII table with numbers 0, 3, 9 highlighted to correspond to "decimal" or row values of 48, 51, 57 in the table.](/is445_obuobg_spring2026/week02/images/ASCII-Table2.jpeg)
 
 notes:
 A string is not a number, but a list of characters. A character is a symbol represented by a unique byte as described in the ASCII table.
