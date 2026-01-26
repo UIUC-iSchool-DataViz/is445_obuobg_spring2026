@@ -6,11 +6,11 @@ notitle: true
 examples:
   - filename: prep_notebook_week03.ipynb
     type: ipynb
-    title: Prep Notebook, Week 3
+    title: Prep Notebook, Week 2
     description: Prep notebook for this week
-  - filename: inClass_week03.ipynb
+  - filename: inClass_week02.ipynb
     type: ipynb
-    title: In class, Week 3
+    title: In class, Week 2
     description: in class notebook for this week
   - filename: spring2021_prep_notebook_week02.ipynb
     type: ipynb
