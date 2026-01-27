@@ -602,7 +602,7 @@ to it.
 
 <div class="left">
 
-![](images/palette.jpg)
+![Diagram showing operations one can do with data (filter, mutate, split) being done iteratively.](images/palette.jpg)
 
 <!-- .element: style="height: 20em;" -->
 </div>
@@ -679,29 +679,125 @@ not without its possible faults, however.
 
 ---
 
-<!-- .slide: data-background-image="images/sampling_fig1.png" data-background-size="contain" -->
+<style>
+  .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
+
+<!-- .slide: data-background-image="images/sampling_fig1.png" data-background-size="contain" data-background-image-alt="Description of your image here" -->
+
+<span class="sr-only">Figure showing a smooth, highly sampled cosine wave.</span>
+
+
+<!-- 
+<style>
+  #ImSticky {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+</style>
+<img id="ImSticky" src="images/sampling_fig1.png">
+-->
+
+
 
 ---
+
+<style>
+  .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
 
 <!-- .slide: data-background-image="images/sampling_fig2.png" data-background-size="contain" -->
 
+<span class="sr-only">Four-panel plot.  Upper left shows smoothly sampled cosine wave, upper right shows a mostly smooth cosine wave with step size increased by a factor of 2.  Bottom left shows same cosine wave with step size increased by factor of 8, making the signal choppy and difficult to see. Bottom right is the same cosine wave with a step size of 16 where the signal is not visible.</span>
+
+
 ---
 
+<style>
+  .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
+
 <!-- .slide: data-background-image="images/sampling_fig3.png" data-background-size="contain" -->
+
+<span class="sr-only">Four-panel plot showing the same cosine wave as the prior slide.  Left-to-right, top-to-bottom, the cosine wave is downsampled at random intervals until it is sampled by only 4 points and the signal is no longer visible.</span>
 
 notes:
 We might preserve the shape better by alternate sampling methods. These random samplings preserve features that the uniform samplings lost - but they also lose features that the uniform sampling preserved.
 
 ---
 
+<style>
+  .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
+
 <!-- .slide: data-background-image="images/sampling_fig4.png" data-background-size="contain" -->
+
+<span class="sr-only">Figure showing a smooth, highly sampled cosine wave with a high frequency (3 cycles in this figure).</span>
+
 
 notes:
 You'll also notice that high rates of change are more susceptible to data loss. A better sampling algorithm would target these fast changing regions.
 
 ---
 
+<style>
+  .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
+
 <!-- .slide: data-background-image="images/sampling_fig5.png" data-background-size="contain" -->
+
+<span class="sr-only">Four-panel plot showing the same cosine wave as the prior slide with 3 cycles.  Left-to-right, top-to-bottom, the cosine wave is downsampled regular intervals until it is sampled by only 8 points and the signal is barely visible, and 4 points where the signal is no longer visible.</span>
 
 notes:
 the Nyquist limit is the minimum rate at which a signal can be sampled without introducing errors - 2x the highest frequency in the data.
@@ -710,11 +806,31 @@ You can see that in this higher frequency data, the same sampling rates fall apa
 
 ---
 
+<style>
+  .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
+
 <!-- .slide: data-background-image="images/sampling_fig6.png" data-background-size="contain" -->
+
+<span class="sr-only">Four-panel plot showing the same cosine wave as the prior slide with 3 cycles.  Left-to-right, top-to-bottom, the cosine wave is downsampled in random intervals until it is sampled by only 8 points and the signal is no longer visible.</span>
+
 
 ---
 
+
 <!-- .slide: data-background-image="images/teapots.png" data-background-size="contain" -->
+
+<span class="sr-only">Three instances of a 3d graphics teapot model at progressive downsampling levels.</span>
 
 ---
 
