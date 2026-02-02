@@ -651,7 +651,7 @@ in order to get the data values to line up with the color bar - which goes from 
 
 ## Color Mapping: RGB Components of Some Colormaps
 
-<!-- .slide: data-background-image="images/colors/colors/gray_colors.png" data-background-size="auto 65%" -->
+<!-- .slide: data-background-image="images/colors/gray_colors.png" data-background-size="auto 65%" -->
 
 ---
 

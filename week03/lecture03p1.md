@@ -3,7 +3,7 @@ title: Lecture 3.1 - Raster vs. Vector in Images
 layout: lecture
 description: >-
  We'll look at the basics of rendering of images and spatial data.
-date: 2025-09-15
+date: 2026-02--4
 ---
 
 <br>
@@ -17,18 +17,15 @@ date: 2025-09-15
 ## How to get help
 
 Jill P. Naiman - `jnaiman@illinois.edu`
- * Office Hours: Thursdays 11am-12:30pm (online)
+ * Office Hours: Thursdays 12:30-2pm (online)
 
-TA: Guangchun Zheng  - `gzheng6@illinois.edu`
- * Office Hours: Tuesdays 8-10:30am and Fridays 3-5:30pm (online)
-
-TA: Yiliu Tang - `yiliut2@illinois.edu`
- * Office Hours: Tuesdays 1-4pm, Wednesdays 8am-10am (online)
+TA: Lucian Li - `zilul2@illinois.edu`
+ * Office Hours: Tuesdays and Thursdays, 5-7pm (online)
 
 TA: Gaozheng Liu - `gl11@illinois.edu`
- * Office Hours: Mondays 4-6pm (online)
+ * Office Hours:  Mondays and Fridays, 4-6pm (online)
 
-See [Zoom Meeting Room on Canvas](https://canvas.illinois.edu/courses/58974/external_tools/327) to access meeting links.
+See Zoom Meeting Room on Canvas to access meeting links.
  
 Other: 
  * Slack, email
@@ -37,13 +34,13 @@ Other:
 
 ## Where resources are be located
 
- * Canvas: https://canvas.illinois.edu/courses/58974 - where the grades and assignments links will be posted
+* Canvas: https://canvas.illinois.edu/courses/64830 - where the grades and assignments links will be posted
  
- * PrairieLearn: https://us.prairielearn.com/pl/course_instance/187129 - where assignments will be completed
+* PrairieLearn: https://us.prairielearn.com/pl/course_instance/204190/assessments - where assignments will be completed
 
- * Course webpage: https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2025/ - where lecture slides, notebooks, data & general course info will live.
+* Course webpage: https://uiuc-ischool-dataviz.github.io/is445_obuobg_spring2026/ - where lecture slides, notebooks, data & general course info will live.
 
- * Slack: [https://is445-bc-fa25.slack.com/](https://join.slack.com/t/is445-bc-fa25/shared_invite/zt-3bj21az1i-eKZKeM4pyIMaqLU3vebjTA) (workspace name is is445-bc-fa2025) - the best place to ask questions in a `#assignmentX-questions` channel 
+* Slack: [https://is445-ob-sp26.slack.com/](https://join.slack.com/t/is445-ob-sp26/shared_invite/zt-3nlxwigx2-uAKm2J3UFFcPsSNZMLHr0A) (workspace name is is445-ob-sp26) - the best place to ask questions in a `#homeworkX-questions` channel 
    * all quiz questions on channel `#quiz-questions`
  
 notes:
