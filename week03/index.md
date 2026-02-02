@@ -20,7 +20,7 @@ data:
     link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/littleCorgiInHat.png
   - filename: stitch_reworked.png
     type: dataLink
-    title: Stitch Image
+    title: Stitch as Thermometer
     description: Three-color image of stitch
     link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/stitch_reworked.png
 library:
