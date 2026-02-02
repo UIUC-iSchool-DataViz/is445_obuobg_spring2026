@@ -12,17 +12,6 @@ examples:
     type: ipynb
     title: In class, Week 2
     description: in class notebook for this week
-  - filename: spring2021_prep_notebook_week02.ipynb
-    type: ipynb
-    title: Notebook from past class 
-    description: Extra notebook from 2021 class
-  - filename: spring2019_prep_notebook_week02.ipynb
-    type: ipynb
-    title: Notebook from past class (2019)
-    description: Extra notebook from 2019 class
-  - filename: spring2019_prep_notebook_week03_part1.ipynb
-    type: ipynb
-    title: spring2019_prep_notebook_week03_part1.ipynb
 data:
   - filename: building_inventory.csv
     type: dataLink
@@ -54,3 +43,20 @@ Also, more about numpy.reshape (and what the -1 means): https://stackoverflow.co
 3. <a href="https://github.com/jnaiman/IS-452AO-Fall2019/blob/master/Lectures/Week-10-JSONandCSV.ipynb">IS452's intro to CSV files (bottom of page)</a> 
 4. <a href="https://github.com/jnaiman/IS-452AO-Fall2019/blob/master/Lectures/Week-09-Dictionaries.ipynb">IS452's Intro to Dictionaries</a> 
 5. <a href="https://pandas.pydata.org/pandas-docs/stable/">Pandas Docs</a> & <a href="https://docs.scipy.org/doc/numpy/reference/">NumPy Docs</a>
+
+
+<!-- notebooks not checked for accessibility below
+
+  - filename: spring2021_prep_notebook_week02.ipynb
+    type: ipynb
+    title: Notebook from past class 
+    description: Extra notebook from 2021 class
+  - filename: spring2019_prep_notebook_week02.ipynb
+    type: ipynb
+    title: Notebook from past class (2019)
+    description: Extra notebook from 2019 class
+  - filename: spring2019_prep_notebook_week03_part1.ipynb
+    type: ipynb
+    title: spring2019_prep_notebook_week03_part1.ipynb
+
+-->

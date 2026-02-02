@@ -6,30 +6,12 @@ notitle: true
 examples:
   - filename: prep_notebook_week04.ipynb
     type: ipynb
-    title: Prep Notebook, Week 4
+    title: Prep Notebook, Week 3
     description: Prep notebook for this week
-  - filename: inClass_week04.ipynb
+  - filename: inClass_week03.ipynb
     type: ipynb
-    title: In class notebook, Week 4
+    title: In class notebook, Week 3
     description: Prep notebook for this week
-  - filename: fall2019_prep_notebook_furtherExamples_01.ipynb
-    type: ipynb
-    title: fall2019_prep_notebook_furtherExamples_01.ipynb
-    description: Extra notebook from 2019 class
-  - filename: fall2019_prep_notebook_furtherExamples_02.ipynb
-    type: ipynb
-    title: fall2019_prep_notebook_furtherExamples_02.ipynb
-    description: Extra notebook from 2019 class
-  - filename: fall2019_prep_notebook_furtherExamples_03.ipynb
-    type: ipynb
-    title: fall2019_prep_notebook_furtherExamples_03.ipynb
-    description: Extra notebook from 2019 class
-  - filename: spring2019_prep_notebook_furtherExamples_week03.ipynb
-    type: ipynb
-    title: spring2019_prep_notebook_furtherExamples_week03.ipynb
-  - filename: spring2019_prep_notebook_week03_part2.ipynb
-    type: ipynb
-    title: spring2019_prep_notebook_week03_part2.ipynb
 data:
   - filename: littleCorgiInHat.png
     type: dataLink
@@ -74,3 +56,27 @@ Note there are a variety of notebooks from previous iterations of this course li
 5. <a href="https://jiffyclub.github.io/palettable/#documentation">Palettable Docs</a> 
 6. <a href="https://clauswilke.com/dataviz/image-file-formats.html">FDV, Ch. 27: Understanding the most commonly used image file formats</a> 
 7. <a href="https://clauswilke.com/dataviz/aesthetic-mapping.html">FDV, Ch. 2: Visualizing data: Mapping data onto aesthetics</a>
+
+
+<!-- notebooks not checked for accessibility below
+
+  - filename: fall2019_prep_notebook_furtherExamples_01.ipynb
+    type: ipynb
+    title: fall2019_prep_notebook_furtherExamples_01.ipynb
+    description: Extra notebook from 2019 class
+  - filename: fall2019_prep_notebook_furtherExamples_02.ipynb
+    type: ipynb
+    title: fall2019_prep_notebook_furtherExamples_02.ipynb
+    description: Extra notebook from 2019 class
+  - filename: fall2019_prep_notebook_furtherExamples_03.ipynb
+    type: ipynb
+    title: fall2019_prep_notebook_furtherExamples_03.ipynb
+    description: Extra notebook from 2019 class
+  - filename: spring2019_prep_notebook_furtherExamples_week03.ipynb
+    type: ipynb
+    title: spring2019_prep_notebook_furtherExamples_week03.ipynb
+  - filename: spring2019_prep_notebook_week03_part2.ipynb
+    type: ipynb
+    title: spring2019_prep_notebook_week03_part2.ipynb
+
+-->
