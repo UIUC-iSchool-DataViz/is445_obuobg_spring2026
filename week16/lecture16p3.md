@@ -26,7 +26,7 @@ date: 2024-12-04
  1. Node-link diagrams
  1. Matrix views
 
-<img src="images/networks/compareMatrixNT.png" width="800"/>
+<img src="images/networks/compareMatrixNT.png" width="800" alt="Two panel figure showing two representations of the same network dataset.  On the left, the visualization is a node-link diagram in which points are connected with lines.  Lines are colored by a value between 0 and 100.  On the right a matrix-view is shown with each node listed on both x and y axis, and each cell of each x/y combination highlighted with a value between 0 and 100."/>
 
 From: <a href="https://www.researchgate.net/publication/258716465_Visualizing_Weighted_Networks_A_Performance_Comparison_of_Adjacency_Matrices_versus_Node-link_Diagrams">this article</a>
 
@@ -42,7 +42,7 @@ This figure here is actually showing the same networked dataset.
  1. Trees
  1. Force-Directed Graphs
 
-<img src="images/networks/circlesTree.png" width="400"/>
+<img src="images/networks/circlesTree.png" width="400" alt="A force directed graph visualization.  Orange circular nodes are connected by blue lines.  Visualization shows several highly connected nodes as well as many sparse ones."/>
 
 notes:
 These are the primary ways that you would draw a linked node diagram.
@@ -56,7 +56,7 @@ You might have different sizes of symbols, different shapes, or different link o
  1. Trees
  1. Force-Directed Graphs
 
-<img src="images/networks/hairball.png" width="600"/>
+<img src="images/networks/hairball.png" width="600" alt="A force directed graph of a network from a friend group from a FaceBook dataset.  Points are overlapping and difficult to read, leading this to be classified as a 'hairball' type network visualization."/>
 
 From: <a href="https://github.com/jcatw/snap-facebook">this GitHub</a>
 
@@ -75,7 +75,7 @@ this is a node-link diagram of this full facebook dataset showing groups of conn
    * can have a direction
    * can have a weight
 
-<img src="images/networks/coldWarLong.jpg" width="800"/>
+<img src="images/networks/coldWarLong.jpg" width="800" alt="A node-link diagram showing links between alliances in the cold war.  One cluster shows connections between Portugal, South Africa and Rhodesia.  Another cluster shows links between Israel, USA, and China and USA is further connected to the United Kingdom, New Zealand and Australia.  The United Kingdom, Australia, and New Zealand are connected to each other and the United Kingdom, Malaysia and New Zealand are connected."/>
 
 notes:
 This is a diagram of some selected military alliances during the Cold War.
@@ -91,7 +91,7 @@ This is a diagram of some selected military alliances during the Cold War.
    * can have a direction
    * can have a weight
 
-<img src="images/networks/geneticNetwork.png" width="800"/>
+<img src="images/networks/geneticNetwork.png" width="800" alt="A diagram showing several node-link diagrams connecting several clusters of genes.  The BRCA1 gene is highlighted."/>
 
 notes:
 One common use-case for these is genetics. Scientists need visualizations to understand how one gene affects another, either directly OR **indirectly**.
@@ -110,7 +110,7 @@ here is shown an example of how the BRCA genes associated with some forms of bre
  * Always one incoming edge (low density)
  * Discrete, not Continuous
 
-<img src="images/networks/trees.png" width="800"/>
+<img src="images/networks/trees.png" width="800" alt="A two panel tree diagram.  On the left, a hierarchial tree shows Earth at the top, the second layer below shows continents (e.g., Africa) and the third layer below shows countries, and the final fourth layer shows several cities within these countries.  The right panel shows a hierarchial, circular diagram with one central point which radiates outward as the hierarchy becomes more specific."/>
 
 notes:
 trees have a topology or hierarchy. These are especially good for a *deep* hierarchy.
@@ -127,7 +127,7 @@ The left hand plot has a top-down ordering, while the right-hand plot is ordered
  * Nodes push away from each other by local repulsion force.
  * Forces can be weighted.
 
-<img src="images/networks/forceDirectedGraph.gif" width="450"/>
+<img src="images/networks/forceDirectedGraph.gif" width="450" alt="A short animation of the creation of a force-directed graph.  The node-link diagram starts as a 'hairball' and over the course of the simulation expands to a maximum number of non-interacting clusters."/>
 
 notes:
 These use simulated forces to push apart what might otherwise look like a mad hairball.
@@ -146,7 +146,7 @@ Note that this means these plots are in a sense "non-deterministic" in that you 
  * Joint or Disjoint
  * Discrete, not Continuous
 
-<img src="images/networks/disjoint.png" width="450"/>
+<img src="images/networks/disjoint.png" width="450" alt="Force directed graph with several distinct clusters and mostly only-few connected nodes."/>
 
 notes:
 These are useful for identifying clusters, finding all possible paths, finding the shortest path, finding all adjacent nodes, finding bridges between unconnected nodes, etc.
@@ -159,7 +159,7 @@ These are useful for identifying clusters, finding all possible paths, finding t
    * Non-deterministic (different every time)
    * Link Density can be an issue when over 3-4 links per node
 
-<img src="images/networks/SocialNetworkAnalysis.png" width="550"/>
+<img src="images/networks/SocialNetworkAnalysis.png" width="550" alt="Force directed graph with nodes and links colored by network connection.  Node sizes are proportional to connectivity.  With many nodes, links, colors and sizes, the graph is on the 'edge' of readability."/>
 
 notes:
 this is a social network graph that looks fine at high resolution, but on this screen is more or less unreadable.
@@ -171,8 +171,8 @@ this is a social network graph that looks fine at high resolution, but on this s
  1. Adjacency Matrix
    * List all values along X AND Y axes
 
-<img src="images/networks/coldWarLong.jpg" width="400"/></td>
-<img src="images/networks/coldWarMatrix.png" width="400"/></td>
+<img src="images/networks/coldWarLong.jpg" width="400" alt="A node-link diagram showing links between alliances in the cold war.  One cluster shows connections between Portugal, South Africa and Rhodesia.  Another cluster shows links between Israel, USA, and China and USA is further connected to the United Kingdom, New Zealand and Australia.  The United Kingdom, Australia, and New Zealand are connected to each other and the United Kingdom, Malaysia and New Zealand are connected."/></td>
+<img src="images/networks/coldWarMatrix.png" width="400" alt="A matrix view of the different alliances during the cold war."/></td>
 
 notes:
 Matrix views remove occlusion and hairball issues completely. They are preferred for extremely dense data.
@@ -187,7 +187,7 @@ However they do not show topology, and they might be less intuitive to identify 
    * List all values along X AND Y axes
    * Can cut in half along diagonal if non-directional
 
-<img src="images/networks/foldedAdjacencyMatrix.jpg" width="450"/>
+<img src="images/networks/foldedAdjacencyMatrix.jpg" width="450" alt="A matrix view of a network that shows the connection between different locations in a town.  The matrix is truncated on a diagonal to avoid duplicating connections."/>
 
 notes:
 This is sometimes called a "Folded" adjacency matrix
@@ -201,7 +201,7 @@ This is sometimes called a "Folded" adjacency matrix
    * Can cut in half along diagonal if non-directional
    * Color cells by edge weight
 
-<img src="images/networks/brains.png" width="400"/>
+<img src="images/networks/brains.png" width="400" alt="A multipanel chart showing two network diagrams for synaptic connections in brain scans (left and middle panels), and brain imaging (right panel).  The diagram shows many connections across many panels, showing difficulty for a non-expert in reading the graph."/>
 
 notes:
 Matrix views remove occlusion and hairball issues completely. They are preferred for extremely dense data.
@@ -214,7 +214,7 @@ As you can see by the square plots here - these are supposed to show the network
 
 ## Matrix Views
 
-<img src="images/networks/pokemonTypeChart.png" width="500"/>
+<img src="images/networks/pokemonTypeChart.png" width="500" alt="A non-symmetric matrix network visualization showing points gained and lost from attackers and defenders in the Pokeman game.  Attackers can gain more points than defenders lose and visa versa, leading to the non-symmetry of the matrix visualization."/>
 
 notes:
 Pokemon type-effectiveness chart yay!
@@ -231,7 +231,7 @@ Notice this is directional - Attackers and Defenders don't have same effect on d
  1. Containment
    1. Treemaps
 
-<img src="images/networks/d3treemap.png" width="500"/>
+<img src="images/networks/d3treemap.png" width="500" alt="A three-dimensional containment visualization of the D3.js visualization library.  Functions from this library are clustered by type of visualization (e.g., circle, line)."/>
 
 notes:
 Another way to look at networked data - treemaps
@@ -251,7 +251,7 @@ This visualization is file size of the D3 visualization library.
    1. Treemaps
    1. Nested Circles
 
-<img src="images/networks/circlePacking.png" width="400"/>
+<img src="images/networks/circlePacking.png" width="400" alt="A nested circle map visualizing the 'tree' dataset from the R library: https://r-graph-gallery.com/315-hide-first-level-in-circle-packing.html"/>
 
 notes:
 This is also known as circle-packing.
@@ -262,8 +262,8 @@ This is also known as circle-packing.
 
  1. Network and Tree together
 
-<img src="images/networks/grouseFlocks.gif" width="350"/>
-<img src="images/networks/compoundNetwork.png" width="450"/>
+<img src="images/networks/grouseFlocks.gif" width="350" alt="A two panel image showing the same hierarchical network visualized as a tree (left) and as a nested set of circles (right)."/>
+<img src="images/networks/compoundNetwork.png" width="450" alt="A nested circle visualization showing alliances during the cold war with countries nested in larger circles of continents.  "/>
 
 notes:
 Now we're combining a hierarchical nested circle containment WITH linked nodes from our cold war alliances.
@@ -274,13 +274,13 @@ There are lots of ways to combine types of network visualizations like this.
 
 ## An aside: <a href="https://en.wikipedia.org/wiki/Hilma_af_Klint">Hilma af Klint</a>
 
-<img src="images/networks/hak1.jpg" width="350"/>
+<img src="images/networks/hak1.jpg" width="350" alt="A Hilma Af Klint painting showing nested circles and geometry which looks similar to nested circle network visualizations."/>
 
 ---
 
 ## An aside: <a href="https://en.wikipedia.org/wiki/Hilma_af_Klint">Hilma af Klint</a>
 
-<img src="images/networks/hak2.jpg" width="350"/>
+<img src="images/networks/hak2.jpg" width="350" alt="A Hilma Af Klint painting showing nested circles and geometry which looks similar to nested circle network visualizations."/>
 
 ---
 
@@ -294,7 +294,7 @@ There are lots of ways to combine types of network visualizations like this.
 
 ## Today's Python: Networks & Word clouds
 
-<img src="https://wordcloudapi.com/word_cloud.png" width="600px">
+<img src="https://wordcloudapi.com/word_cloud.png" width="600px" alt="A wordcloud showing relative frequencies of words from discussions of the star wars movies.">
 
 notes:
 We'll be focusing a lot on ways of representing text occurrences in Python with histograms and wordclouds and then if we have time we'll circle back to networks
