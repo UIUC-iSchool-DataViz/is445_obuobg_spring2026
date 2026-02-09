@@ -4,13 +4,13 @@ visible: true
 icon: undraw_under_construction_46pa.svg
 notitle: true
 examples:
-  - filename: inClass_week05.ipynb
+  - filename: inClass_week04.ipynb
     type: ipynb
-    title: In Class notebook
-    description: in Class notebook, Week 5
+    title: In Class notebook, Week 4
+    description: in Class notebook, Week 4
   - filename: prep_notebook_week05.ipynb
     type: ipynb
-    title: Prep Notebook, Week 5
+    title: Prep Notebook, Week 4
     description: Prep notebook for this week
   - filename: prep_notebook_week05_extras.ipynb
     type: ipynb
