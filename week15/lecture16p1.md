@@ -16,7 +16,7 @@ date: 2024-12-09
 
 ## This course
 
-<img src="images/week15.png" width="95%">
+<img src="images/week15.png" width="95%" alt="Mind-map covering all topics from this course.  In the center is Data Viz, which attaches to 'islands' of data management, programming, viz engines, validation techniques, general publishing, and visual encodings.  Beginning interactivity and dashboard building connect visual encodings and programming 'islands'.">
 
 notes:
 Look at all the stuff we covered!
