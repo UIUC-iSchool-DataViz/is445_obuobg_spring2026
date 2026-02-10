@@ -37,7 +37,7 @@ data:
 
 # Beginning interactivity
 
-This week we will learn about ipywidgets and traitlets and apply them to visualizations in Python.
+This week we will learn about ipywidgets and traitlets and apply them to visualizations in Python.  This gets us ready for `bqplot` next week.
 
 
 ## Optional Reading List
