@@ -162,12 +162,15 @@ Step 10: Push to your online repo
 Step 11: wait for your website to build and then check it out!
  * Link: ```https://YOUR_GITHUB_USER_NAME.github.io/```
  
-**You can also use the GUI interface for this if you want!**
+**You can use GUI interface, but later you'll need the command line!**
+
+<!--
 
 An example from a DPI talk Prof. Turk and I gave [can be found right here](https://mediaspace.illinois.edu/media/t/1_a874v3q7).
+-->
 
 notes:
-you can also use the GUI interface to do this if you are more comfortable with that
+you can also use the GUI interface to do this if you are more comfortable with that, but you'll need to use the command line later so best to start with that
 
 ---
 
