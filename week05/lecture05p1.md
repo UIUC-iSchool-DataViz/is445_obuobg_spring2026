@@ -76,7 +76,7 @@ notes:
 
 ## Next week -- "flipped" class for Lab \#5
 
-In particular, I am assuming you have watched the [Part 2 Video](https://mediaspace.illinois.edu/media/t/1_k93hei8q) already before joining the class next week (video on Module page) *and* have looked at the prep notebook in Week 6.
+In particular, I am assuming you have watched the [Part 2 Video](https://mediaspace.illinois.edu/media/t/1_k93hei8q) already before joining the class next week (video on Module page) *and* have looked at the prep notebook for next week.
 
 **We will spend the majority of class next week with time to work on Lab \#5.**
 
