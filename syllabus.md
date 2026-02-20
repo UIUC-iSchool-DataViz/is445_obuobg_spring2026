@@ -102,7 +102,9 @@ A list of Python libraries week-by-week and tips on how to install them <a href=
 -->
 
 ### Optional Textbooks
-The textbook [Visualization Analysis and Design by Tamara Munzner](https://www.amazon.com/gp/product/1466508914/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) is referenced for some optional readings below.  You can find a lot of the concepts from this textbook on [the books webpage](https://www.cs.ubc.ca/~tmm/vadbook/) and the [associated lecture slides](https://www.cs.ubc.ca/~tmm/talks.html#vadallslides).
+The textbook [Visualization Analysis and Design by Tamara Munzner](https://i-share-uiu.primo.exlibrisgroup.com/permalink/01CARLI_UIU/q1ojeg/alma99774293512205899) is referenced for some optional readings below.  You have *free* access to this book through UIUC and the O'Reilly (see link on the library webpage linked in the prior sentence) -- just make sure to sign into O'Reilly using your UIUC email address.
+
+You can also find a lot of the concepts from this textbook on [the books webpage](https://www.cs.ubc.ca/~tmm/vadbook/) and the [associated lecture slides](https://www.cs.ubc.ca/~tmm/talks.html#vadallslides).
 
 As the course progresses, a list of recommended readings will be generated for
 each class.  These will be included in the course materials repository, and
