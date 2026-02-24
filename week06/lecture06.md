@@ -129,7 +129,7 @@ we'll only show data where variable2 > variable1
 
 ## Interactivity: Linking & Brushing
 
-<!-- .slide: data-background-image="images/brushlink_03.svg" data-background-size="80% auto" data-background-position="right 50% bottom 50%" alt="Two simple graphs, first is for variable 1 (x-axis) and variable 2 (y-axis), second is for variable 3 (x-axis) and variable 4 (y-axis).  The first plot has a line where variable 1 is equal to variable 2. " -->
+<section data-background-image="images/brushlink_03.svg" aria-label="Two simple graphs, first is for variable 1 (x-axis) and variable 2 (y-axis), second is for variable 3 (x-axis) and variable 4 (y-axis).  The first plot has a line where variable 1 is equal to variable 2." data-background-size="80% auto" data-background-position="right 50% bottom 50%">
 
 `data(variable1, variable2, variable3, variable4)`
 
@@ -141,7 +141,7 @@ note: lets draw a line where the demarkation of our filter would be
 
 ## Interactivity: Linking & Brushing
 
-<!-- .slide: data-background-image="images/brushlink_04.svg" data-background-size="80% auto" data-background-position="right 50% bottom 50%" alt="Two simple graphs, first is for variable 1 (x-axis) and variable 2 (y-axis), second is for variable 3 (x-axis) and variable 4 (y-axis).  Data has been removed from both plot where variable 1 is less than to variable 2. " -->
+<section data-background-image="images/brushlink_04.svg" aria-label="Two simple graphs, first is for variable 1 (x-axis) and variable 2 (y-axis), second is for variable 3 (x-axis) and variable 4 (y-axis).  Data has been removed from both plot where variable 1 is less than to variable 2. " data-background-size="80% auto" data-background-position="right 50% bottom 50%">
 
 `data(variable1, variable2, variable3, variable4)`
 
@@ -153,7 +153,7 @@ note: ... and lets take out all the data of both plots that has variable2 <= var
 
 ## Interactivity: Linking & Brushing
 
-<!-- .slide: data-background-image="images/brushlink_05.svg" data-background-size="80% auto" data-background-position="right 50% bottom 50%" alt="Two simple graphs, first is for variable 1 (x-axis) and variable 2 (y-axis), second is for variable 3 (x-axis) and variable 4 (y-axis).  The first plot has a oval selecting several points in a cluster in variable 1 - variable 2 space." -->
+<section data-background-image="images/brushlink_05.svg" aria-label="Two simple graphs, first is for variable 1 (x-axis) and variable 2 (y-axis), second is for variable 3 (x-axis) and variable 4 (y-axis).  The first plot has a oval selecting several points in a cluster in variable 1 - variable 2 space." data-background-size="80% auto" data-background-position="right 50% bottom 50%">
 
 note: we can also select regions in our linked view
 
@@ -161,7 +161,7 @@ note: we can also select regions in our linked view
 
 ## Interactivity: Linking & Brushing
 
-<!-- .slide: data-background-image="images/brushlink_06.svg" data-background-size="80% auto" data-background-position="right 50% bottom 50%" alt="Two simple graphs, first is for variable 1 (x-axis) and variable 2 (y-axis), second is for variable 3 (x-axis) and variable 4 (y-axis).  The first plot has a oval selecting several points in a cluster in variable 1 - variable 2 space, dashed lines link points in the first and second plots." -->
+<section data-background-image="images/brushlink_06.svg" aria-label="Two simple graphs, first is for variable 1 (x-axis) and variable 2 (y-axis), second is for variable 3 (x-axis) and variable 4 (y-axis).  The first plot has a oval selecting several points in a cluster in variable 1 - variable 2 space, dashed lines link points in the first and second plots." data-background-size="80% auto" data-background-position="right 50% bottom 50%">
 
 note: here are how these points are linked in the plot of variable3 vs variable4
 
@@ -169,7 +169,7 @@ note: here are how these points are linked in the plot of variable3 vs variable4
 
 ## Interactivity: Linking & Brushing
 
-<!-- .slide: data-background-image="images/brushlink_07.svg" data-background-size="80% auto" data-background-position="right 50% bottom 50%" alt="Two simple graphs, first is for variable 1 (x-axis) and variable 2 (y-axis), second is for variable 3 (x-axis) and variable 4 (y-axis).  The first plot has several points selected in variable 1 - variable 2 space, the linked data points in variable 3 - variable 4 space are also highlighted." -->
+<section data-background-image="images/brushlink_07.svg" aria-label="Two simple graphs, first is for variable 1 (x-axis) and variable 2 (y-axis), second is for variable 3 (x-axis) and variable 4 (y-axis).  The first plot has several points selected in variable 1 - variable 2 space, the linked data points in variable 3 - variable 4 space are also highlighted." data-background-size="80% auto" data-background-position="right 50% bottom 50%">
 
 note: so when we select with our brush in the first plot we can show what is selected in the second plot
 
