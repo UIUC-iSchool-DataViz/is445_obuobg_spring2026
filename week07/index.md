@@ -6,7 +6,7 @@ notitle: true
 examples:
   - filename: inClass_week07.ipynb
     type: ipynb
-    title: In class notebook
+    title: In class Notebook, Week 7
     description: Placeholder for in class coding
   - filename: prep_notebook_week08.ipynb
     type: ipynb
