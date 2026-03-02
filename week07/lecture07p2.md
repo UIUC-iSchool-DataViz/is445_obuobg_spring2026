@@ -114,7 +114,9 @@ What happens when we preserve one property over another?
 
 Mercator is a "conformal" projection.  What is wrong with this?
 
-<!-- .slide: data-background-image="images/mercator.png" data-background-size="auto 80%" alt="A Mercator projection of a world map." -->
+
+<section data-background-image="images/mercator.png" aria-label="A Mercator projection of a world map." data-background-size="70% auto">
+
 
 notes:
 conformal = shape preserving (at the expense of accurate size)
@@ -136,29 +138,35 @@ stay circles, though they change in relative size depending on where they are on
 
 What do you notice?
 
-<!-- .slide: data-background-image="images/mercator.png" data-background-size="auto 80%" alt="A Mercator projection of a world map." -->
+<section data-background-image="images/mercator.png" aria-label="A Mercator projection of a world map." data-background-size="70% auto">
+
 
 ---
 
-<!-- .slide: data-background-image="images/mercator_tissot.png" data-background-size="auto 80%" alt="A Mercator projection of a world map with Tissot Ellipses of Distortion overlaid.  The ellipses are not distorted in shape, but are much bigger at the poles than at the equator." -->
+<section data-background-image="images/mercator_tissot.png" aria-label="A Mercator projection of a world map with Tissot Ellipses of Distortion overlaid.  The ellipses are not distorted in shape, but are much bigger at the poles than at the equator." data-background-size="70% auto">
+
 
 notes:
 Greenland and Antarctica are HUGE
 
 ---
 
-<!-- .slide: data-background-image="images/transversemercator.png" data-background-size="auto 95%" alt="A Transverse Mercator projection of a world map." -->
+<section data-background-image="images/transversemercator.png" aria-label="A Transverse Mercator projection of a world map." data-background-size="95% auto">
+
 
 ---
 
-<!-- .slide: data-background-image="images/transversemercator_tissot.png" data-background-size="auto 95%" alt="A Transverse Mercator projection of a world map with Tissot Ellipses of Distortion overlaid.  The ellipses are not distorted in shape, but are much toward the edges than in the middle." -->
+<section data-background-image="images/transversemercator_tissot.png" aria-label="A Transverse Mercator projection of a world map with Tissot Ellipses of Distortion overlaid.  The ellipses are not distorted in shape, but are much toward the edges than in the middle." data-background-size="95% auto">
+
 
 notes:
 this projection is most accurate near the vertical center line
 
 ---
 
-<!-- .slide: data-background-image="images/lambertcylindrical.png" data-background-size="auto 95%" alt="A Lambert Cylindrical projection of a world map." -->
+
+<section data-background-image="images/lambertcylindrical.png" aria-label="A Lambert Cylindrical projection of a world map." data-background-size="95% auto">
+
 
 ---
 
