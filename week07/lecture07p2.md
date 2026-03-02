@@ -170,7 +170,8 @@ this projection is most accurate near the vertical center line
 
 ---
 
-<!-- .slide: data-background-image="images/lambertcylindrical_tissot.png" data-background-size="auto 95%" alt="A Lambert Cylindrical projection of a world map with Tissot Ellipses of Distortion overlaid.  The ellipses are distorted in shape and size, but sizes are much less distorted than for Mercator projections. Shape is the most distorted at the poles." -->
+<section data-background-image="images/lambertcylindrical_tissot.png" aria-label="A Lambert Cylindrical projection of a world map with Tissot Ellipses of Distortion overlaid.  The ellipses are distorted in shape and size, but sizes are much less distorted than for Mercator projections. Shape is the most distorted at the poles." data-background-size="95% auto">
+
 
 notes:
 Also known as "equirectangular", this is the favorite format of NASA because it's mathematically straightforward.
@@ -179,33 +180,35 @@ Note that the very top line of the image represents a single point on the globe.
 
 ---
 
-<!-- .slide: data-background-image="images/mollweide.png" data-background-size="auto 95%" alt="A Mollweide projection of a world map." -->
+<section data-background-image="images/mollweide.png" aria-label="A Mollweide projection of a world map." data-background-size="95% auto">
+
 
 ---
 
-<!-- .slide: data-background-image="images/mollweide_tissot.png" data-background-size="auto 95%" alt="A Mollweide projection of a world map with Tissot Ellipses of Distortion overlaid.  The ellipses are distorted in shape and size, sizes and shapes are medium-distorted compared to other projections." -->
+<section data-background-image="images/mollweide_tissot.png" aria-label="A Mollweide projection of a world map with Tissot Ellipses of Distortion overlaid.  The ellipses are distorted in shape and size, sizes and shapes are medium-distorted compared to other projections." data-background-size="95% auto">
+
 
 notes:
 this is considered a good compromise between shape-preserving and angle preserving - but it's not perfect at either.
 
 ---
 
-<!-- .slide: data-background-image="images/sinusoidal.png" data-background-size="auto 95%" alt="A Sinusoidal projection of a world map." -->
+<section data-background-image="images/sinusoidal.png" aria-label="A Sinusoidal projection of a world map." data-background-size="95% auto">
 
 ---
 
-<!-- .slide: data-background-image="images/sinusoidal_tissot.png" data-background-size="auto 95%" alt="A Sinusoidal projection of a world map with Tissot Ellipses of Distortion overlaid. The ellipses are distorted in shape and size, sizes and shapes are medium-distorted compared to other projections."  -->
+<section data-background-image="images/sinusoidal_tissot.png" aria-label="A Sinusoidal projection of a world map with Tissot Ellipses of Distortion overlaid. The ellipses are distorted in shape and size, sizes and shapes are medium-distorted compared to other projections." data-background-size="95% auto">
 
 notes:
 this has even less distortion than mollweide, but the pointy ends don't feel very elegant and planet-like
 
 ---
 
-<!-- .slide: data-background-image="images/gnomonic.png" data-background-size="auto 95%" alt="A Gnomonic projection of a world map. This map is difficult to parse visually. -->
+<section data-background-image="images/gnomonic.png" aria-label="A Gnomonic projection of a world map. This map is difficult to parse visually." data-background-size="95% auto">
 
 ---
 
-<!-- .slide: data-background-image="images/gnomonic_tissot.png" data-background-size="auto 95%" alt="A Gnomonic projection of a world map with Tissot Ellipses of Distortion overlaid.  The ellipses are distorted in shape and size, with large differences at the polls." -->
+<section data-background-image="images/gnomonic_tissot.png" aria-label="A Gnomonic projection of a world map with Tissot Ellipses of Distortion overlaid.  The ellipses are distorted in shape and size, with large differences at the polls." data-background-size="95% auto">
 
 notes:
 this is another nightmare scenario like Mercator that was initially created for navigation. Straight lines on this map are the shortest route, but area, shape, and size are distorted.
@@ -264,7 +267,7 @@ notes: there is nothing specifically wrong with putting a pole at the center of 
 
 ## Why bother thinking about projections?
 
-<img src="images/Azimuthal_equidistant_tissot.png" width="512"/>
+<img src="images/Azimuthal_equidistant_tissot.png" width="512" alt="A circular map with the center at the North Pole, the South Pole is the entirety of the circumference of the circle. Tissot Ellipses of Distortion are overlaid, showing the distortion to shape and area grow more pronounced closer to the South Pole."/>
 
 notes: also see here that now the equator is very distorted, and the south pole even more so!
 
@@ -272,7 +275,7 @@ notes: also see here that now the equator is very distorted, and the south pole 
 
 ## Why bother thinking about projections?
 
-<img src="images/Waterman_projection.png" width="512"/>
+<img src="images/Waterman_projection.png" width="512" alt="A Waterman projection in which the globe is broken up into several attached, nearly-triangular shapes."/>
 
 notes: or why bother having a spherical or rectangular shape at all?
 
@@ -280,7 +283,7 @@ notes: or why bother having a spherical or rectangular shape at all?
 
 ## Why bother thinking about projections?
 
-<img src="images/Waterman_tissot.png" width="512"/>
+<img src="images/Waterman_tissot.png" width="512" alt="A Waterman projection in which the globe is broken up into several attached, nearly-triangular shapes.  Tissot Ellipses of Distortion are overlaid, showing that the distortion to shapes and areas is minimal, but several circles are split across triangular pieces."/>
 
 notes: look how here there is very little distortion of size or shape
 
@@ -308,7 +311,7 @@ Take care with:
 
 ## Maps: What to plot?
 
-![more people in green areas](images/moregreen.png)
+![A map highlighting all landmasses on Earth (oceans in blue) with the words 'More people live in the green area than in the blue' as a title.](images/moregreen.png)
 
 Source: [Terrible Maps Twitter](https://twitter.com/TerribleMaps?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 
@@ -321,7 +324,7 @@ but while it is tempting to plot geospatial data on a map, sometimes it is not u
 
 ## Maps: What to plot?
 
-![girt](https://pbs.twimg.com/media/FpbvfrEXEBgE5_Y?format=jpg&name=small)
+![A map showing only Australia highlighted in red with the legend 'Countries with the word girt in their national anthem' in red.](https://pbs.twimg.com/media/FpbvfrEXEBgE5_Y?format=jpg&name=small)
 
 
 notes:
@@ -332,7 +335,7 @@ or, on the otherhand, it can be useful to give people a sense of even small geos
 
 ## Maps: What to plot?
 
-![how fish see the world](images/fishmap.png)
+![A map which has been formatted to have the majority of the land masses at the edges while the oceans appear larger and in the center of the map.  The title says 'World map according to fish'.](images/fishmap.png)
 
 notes:
 but it is important to think about projections since it is making use of a common visual encoding (sort of like how the temperature/battery/fill line encodings are used as metaphors for other types of data than temperature/battery/fill)
@@ -351,7 +354,7 @@ terrible maps are actually really great!
 
 ## JSON & GeoJSON
 
-<img src="../week03/images/jsonex.png">
+<img src="../week02/images/jsonex.png" alt="Screenshot of the data layout of a JSON file.">
 
 notes:
 json is meant to be a way to store data that is "query" based - i.e. it lends itself to searches well
@@ -362,7 +365,7 @@ for this reason, it shows up in web development a lot
 
 ## GeoJSON
 
-<img src="https://www.avenza.com/wp-content/uploads/2017/01/image002-1.png">
+<img src="https://www.avenza.com/wp-content/uploads/2017/01/image002-1.png" alt="Screenshot of the data layout of a GeoJSON file.  The EPSG code is highlighted as an extra element in this formatting.">
 
 notes:
 geojson is just a special json formatting for geographical data
@@ -391,7 +394,7 @@ GeoJSON is:
 
 <div class="right" markdown=1>
 
-<img src="https://www.avenza.com/wp-content/uploads/2017/01/image002-1.png" alt="drawing" width="200"/>
+<img src="https://www.avenza.com/wp-content/uploads/2017/01/image002-1.png" alt="drawing" width="200" alt="Screenshot of the data layout of a GeoJSON file.  The EPSG code is highlighted as an extra element in this formatting."/>
 
 </div>
 
@@ -433,7 +436,7 @@ If we have time, we'll go into those, but if not, they are in the extra prep not
 
 ## Geopandas
 
-<img src="https://geopandas.readthedocs.io/en/v0.4.0/_images/sphx_glr_create_geopandas_from_pandas_001.png">
+<img src="https://geopandas.readthedocs.io/en/v0.4.0/_images/sphx_glr_create_geopandas_from_pandas_001.png" alt="A map from the GeoPandas documentation showing the continent of South America with several capitals highlighted.">
 
 notes:
 the calls for geopandas is going to look very similar to pandas calls!
@@ -473,7 +476,7 @@ we'll just touch on a few data sources, and you'll have the opportunity to explo
 
 ## Geopandas + contextily
 
-<img src="https://geopandas.readthedocs.io/en/v0.9.0/_images/gallery_plotting_basemap_background_8_0.png" width='500px'>
+<img src="https://geopandas.readthedocs.io/en/v0.9.0/_images/gallery_plotting_basemap_background_8_0.png" width='500px' alt="A map from the GeoPandas documentation showing a map of the New York city burroughs with a contextual map underneath showing outlines of the landmasses and streets.">
 
 notes:
 we'll also play around with using contextily to add backgrounds to maps
@@ -563,7 +566,8 @@ ax.plot([c_lon, a_lon], [c_lat, a_lat], transform = cartopy.crs.Geodetic())
 
 ---
 
-<!-- .slide: data-background-image="images/map_plot1.png" data-background-size="auto 95%" -->
+<section data-background-image="images/map_plot1.png" aria-label="A rectangular map projection.  The blue line is straight on a Plate Carree projection, which maintains a straight line on the latitude-longitude grid and the orange line is geodetic which maintains a straight line around the curvature of the Earth." data-background-size="95% auto">
+
 
 notes:
 the blue line is Plate Carree, which maintains a straight line on the lat-lon grid
@@ -572,7 +576,7 @@ the orange line is Geodetic, which maintains a straight line around the curvatur
 
 ---
 
-<!-- .slide: data-background-image="images/map_plot2.png" data-background-size="auto 95%" -->
+<section data-background-image="images/map_plot2.png" aria-label="A Mollweide map projection.  The blue line would be straight on a Plate Carree projection, but now is slightly curved and the orange line is geodetic which maintains a straight line around the curvature of the Earth." data-background-size="95% auto">
 
 notes:
 now even the blue line has some curvature because we are picking a best-of-both-worlds Mollweide projection that doesn't perfectly preserve angle or area.
