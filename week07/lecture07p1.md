@@ -59,7 +59,7 @@ Does its plots look like plots I want to make?
  * What's the user interface like?
  * Is it declarative or is it procedural/imperative?
  
-notes: in the HW you will look at several different forms of interfaces for making the same plot and thought a bit about how a user of the viz might go about making different plots and how some pathways to viz might be more or less intuitive for you and your given task 
+notes: we'll go over some basic considerations when choosing a viz engine, but here are a few broad questions to ask 
 
 ---
 
@@ -120,6 +120,9 @@ How do you interact with the software?
 
  * Declarative: how do you want the plot to look?
  * Imperative/Procedural: what are the steps to make the plot look that way?
+
+notes:
+reminder -- you now have experiences with both, matplotlib for imperitive and bqplot for declarative (and we'll get more experience with declartive viz when we move to altair/vega-lite)
 
 ---
 
