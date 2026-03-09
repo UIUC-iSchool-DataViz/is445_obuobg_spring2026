@@ -266,7 +266,7 @@ For instance, a page can be composed of `<div>` objects, `<p>` objects, etc,
 and we can construct and interact with these.  This includes things like
 modifying style sheets.
 
-![](https://www.w3schools.com/js/pic_htmltree.gif)
+![Image of the structure of an HTML page.  Top level is document, which then breaks into root element (html), and other elements like 'body', 'head', 'href', etc.](https://www.w3schools.com/js/pic_htmltree.gif)
 
 (See, for example, the
 [jsfiddle](https://jsfiddle.net/) for [jQuery
@@ -289,7 +289,7 @@ For instance, a page can be composed of `<div>` objects, `<p>` objects, etc,
 and we can construct and interact with these.  This includes things like
 modifying style sheets.
 
-![](https://www.w3schools.com/js/pic_htmltree.gif)
+![Image of the structure of an HTML page.  Top level is document, which then breaks into root element (html), and other elements like 'body', 'head', 'href', etc.](https://www.w3schools.com/js/pic_htmltree.gif)
 
 One alternative is to have rendering tied to data and data
 values, and to have those automatically update as needed -- `vega-lite`.
@@ -305,7 +305,7 @@ For instance, a page can be composed of `<div>` objects, `<p>` objects, etc,
 and we can construct and interact with these.  This includes things like
 modifying style sheets.
 
-![](https://www.w3schools.com/js/pic_htmltree.gif)
+![Image of the structure of an HTML page.  Top level is document, which then breaks into root element (html), and other elements like 'body', 'head', 'href', etc.](https://www.w3schools.com/js/pic_htmltree.gif)
 
 One alternative is to have rendering tied to data and data
 values, and to have those automatically update as needed -- `vega-lite`.
@@ -454,14 +454,14 @@ The syntax you will need to be the most familiar with:
 
 <div class="left">
   <h3><u>vega-lite</u></h3>
-  <img src="images/simple_bar_chart_vega.png" width="100%"> 
+  <img src="images/simple_bar_chart_vega.png" width="100%" alt="Example of a simple bar chart created with vega-lite in its default syntax -- as a JSON schema."> 
 </div>
 
 <div class="right">
   <div class="left">
     <h3><u>Altair</u></h3>
   </div>
-  <img src="images/save_json_altair.png" width="75%"> 
+  <img src="images/save_json_altair.png" width="75%" alt="Example of the same simple bar chart as the left image, but Altair syntax is shown, using Python code (e.g., Pandas to read in the dataframe)."> 
 </div>
 
 notes:
