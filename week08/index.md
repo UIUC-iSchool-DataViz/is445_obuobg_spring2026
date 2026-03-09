@@ -4,13 +4,13 @@ visible: true
 icon: undraw_forming_ideas_0pav.svg
 notitle: true
 examples:
-  - filename: inClass_week09.ipynb
+  - filename: inClass_week08.ipynb
     type: ipynb
-    title: In Class Notebook, Week 9
+    title: In Class Notebook, Week 8
     description: In Class Notebook
   - filename: prep_notebook_week09.ipynb
     type: ipynb
-    title: Prep Notebook, Week 9
+    title: Prep Notebook, Week 8
     description: Prep Notebook
   - filename: prep_notebook_week08_fall2022
     type: iodidePast
