@@ -72,8 +72,11 @@
 <div id="notebook"></div>
 
 <script>
-<!-- https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
--->
+<!-- https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript -->
+
+
+
+
 var urlParams;
 (window.onpopstate = function () {
     var match,
@@ -86,6 +89,18 @@ var urlParams;
     while (match = search.exec(query))
        urlParams[decode(match[1])] = decode(match[2]);
 })();
+
+// JPN for getting image paths right
+var siteBase = '/is445_obuobg_spring2026';
+var notebookPath = urlParams['notebook_name'] || '';
+var notebookDir = notebookPath.substring(0, notebookPath.lastIndexOf('/') + 1);
+if (!notebookDir) {
+  notebookDir = siteBase + '/';
+}
+var base = document.createElement('base');
+base.href = notebookDir;
+document.head.insertBefore(base, document.head.firstChild);
+// end JPN add SP2026
 
   if(urlParams['notebook_name'] == null) {
     urlParams['notebook_name'] = "sorry.ipynb"
