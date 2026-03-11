@@ -15,7 +15,7 @@ Additionally, packages you install locally may provide different interfaces than
 The command to install the DataViz environment on your local computer (Mac Terminal/Windows Anaconda Prompt) is:
 
 ```bash
-conda create -n DataViz python=3.12 seaborn plotly pygraphviz pandas matplotlib bqplot=0.12.30 numpy regex networkx openssl altair=5.5.0 yt geopandas gdal rasterio shapely pyproj rtree fiona pillow palettable h5py contextily webcolors openpyxl ipyleaflet vega_datasets nltk wordcloud pip -c conda-forge ; conda activate DataViz ; pip install streamlit
+conda create -n DataViz python=3.12 seaborn plotly pygraphviz pandas matplotlib bqplot=0.12.30 numpy regex networkx openssl altair=6.0.0 yt geopandas gdal rasterio shapely pyproj rtree fiona pillow palettable h5py contextily webcolors openpyxl ipyleaflet vega_datasets nltk wordcloud pip -c conda-forge ; conda activate DataViz ; pip install streamlit
 ```
 
 ### Other ways to install locally
