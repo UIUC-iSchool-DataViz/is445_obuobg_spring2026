@@ -8,7 +8,7 @@ date: 2025-10-27
 
 ## This Week/Last Week
 
-<img src='../week09/images/week08_thisweek.png'>
+<img src='../week08/images/week08_thisweek.png' alt="Mindmap visualization of concepts covered in class so far.  Last week we started covering Altair, this week we'll add in how to include these plots in Jekyll.">
 
 notes:
 
@@ -74,7 +74,7 @@ Jekyll is a [static site generator](https://www.cloudflare.com/learning/performa
  
 </div>
 <div class="right">
-<img src="images/jekyll/jekyll_landing.png">
+<img src="images/jekyll/jekyll_landing.png" alt="Screenshot of Jekyll Landing page: https://jekyllrb.com/">
 </div>
 
 notes:
@@ -95,7 +95,7 @@ Jekyll is a [static site generator](https://www.cloudflare.com/learning/performa
  
 </div>
 <div class="right">
-<img src="images/jekyll/jekyll_landing.png">
+<img src="images/jekyll/jekyll_landing.png" alt="Screenshot of Jekyll Landing page: https://jekyllrb.com/">
 </div>
 
 notes:
@@ -116,7 +116,7 @@ Jekyll is a [static site generator](https://www.cloudflare.com/learning/performa
  
 </div>
 <div class="right">
-<img src="images/jekyll/jekyll_landing.png">
+<img src="images/jekyll/jekyll_landing.png" alt="Screenshot of Jekyll Landing page: https://jekyllrb.com/">
 </div>
 
 notes:
@@ -138,7 +138,7 @@ Jekyll is a [static site generator](https://www.cloudflare.com/learning/performa
  
 </div>
 <div class="right">
-<img src="images/jekyll/jekyll_landing.png">
+<img src="images/jekyll/jekyll_landing.png" alt="Screenshot of Jekyll Landing page: https://jekyllrb.com/">
 </div>
 
 notes:
@@ -160,7 +160,7 @@ Jekyll is a [static site generator](https://www.cloudflare.com/learning/performa
  
 </div>
 <div class="right">
-<img src="images/jekyll/jekyll_landing.png">
+<img src="images/jekyll/jekyll_landing.png" alt="Screenshot of Jekyll Landing page: https://jekyllrb.com/">
 </div>
 
 notes:
@@ -187,7 +187,7 @@ the good news is that if we recall lab #6 we already installed jekyll!  now we'l
 
 <div class="right">
 
-<img src="images/jekyll/yaml.png">
+<img src="images/jekyll/yaml.png" alt="Screenshot of landing page of https://yaml.org/">
 
 </div>
 
@@ -205,13 +205,13 @@ yaml is sort of like a cousin of markdown, and is used to use pre-determined for
 
  * Main configuration's are done with [YAML](https://yaml.org/) files/syntax
  
-<img src="images/jekyll/snapshot_of_onlinecv.png">
+<img src="images/jekyll/snapshot_of_onlinecv.png" alt="Screenshot of Jekyll template directory from Lab 6 with the _config.yml file highlighted.">
  
 </div>
 
 <div class="right">
 
-<img src="images/jekyll/yaml.png">
+<img src="images/jekyll/yaml.png" alt="Screenshot of landing page of https://yaml.org/">
 
 </div>
 
@@ -227,15 +227,15 @@ for example if you look in the online-cv template that we are using for class, y
 
  * Main configuration's are done with [YAML](https://yaml.org/) files/syntax
  
-<img src="images/jekyll/snapshot_of_onlinecv.png">
+<img src="images/jekyll/snapshot_of_onlinecv.png" alt="Screenshot of Jekyll template directory from Lab 6 with the _config.yml file highlighted.">
 
-<img src="images/jekyll/config2.png">
+<img src="images/jekyll/config2.png" alt="Screenshot of the contents of the _config.yml file from the Lab 6 template.  This shows the yaml format we'll be using throughout our work with Jekyll.">
  
 </div>
 
 <div class="right">
 
-<img src="images/jekyll/yaml.png">
+<img src="images/jekyll/yaml.png" alt="Screenshot of landing page of https://yaml.org/">
 
 </div>
 
@@ -255,7 +255,7 @@ notes:
 
 <div class="right">
 
-<img src="images/jekyll/blogpost_yaml.png">
+<img src="images/jekyll/blogpost_yaml.png" alt="Screenshot of an example blog post from the template.  Highlighted at the top is the bit of yaml code (within three --- on either end) that is standard across all blog posts and project posts.">
 
 (see `_posts/` directory, example blog post)
 
@@ -280,7 +280,7 @@ From the example here we can see that each post has a title, subject tags, a sty
 
 <div class="right">
 
-<img src="images/jekyll/liquid_examples.png">
+<img src="images/jekyll/liquid_examples.png" alt="Screenshot of several examples of Liquid syntax including Objects, Tags and Filters.">
 
 </div>
 
@@ -302,7 +302,7 @@ dynamic content just means content that changes based on behavior of the user
 
 <div class="right">
 
-<img src="images/jekyll/liquid_examples.png">
+<img src="images/jekyll/liquid_examples.png" alt="Screenshot of several examples of Liquid syntax including Objects, Tags and Filters.  More details can be found: https://jekyllrb.com/docs/liquid/">
 
 </div>
 
@@ -325,7 +325,7 @@ content is then stored in variables, which can be use to print the tags of the v
 
 <div class="right">
 
-<img src="images/jekyll/liquid_examples.png">
+<img src="images/jekyll/liquid_examples.png" alt="Screenshot of several examples of Liquid syntax including Objects, Tags and Filters.   More details can be found: https://jekyllrb.com/docs/liquid/">
 
 </div>
 
@@ -349,7 +349,7 @@ you can also use logic to do flow control based on the values of the object tag 
 
 <div class="right">
 
-<img src="images/jekyll/liquid_examples.png" alt="source: Diptendra Bagchi">
+<img src="images/jekyll/liquid_examples.png" alt="Screenshot of several examples of Liquid syntax including Objects, Tags and Filters.   More details can be found: https://jekyllrb.com/docs/liquid/">
 
 </div>
 
@@ -374,7 +374,7 @@ there are also some "built in" filters which can help control how content looks,
 
 <div class="right">
 
-<img src="images/jekyll/layouts.png" alt="source: Diptendra Bagchi">
+<img src="images/jekyll/layouts.png" alt="Screenshot of an example 'layout.html' file which combines Objects, Tags, and Filters.  An example from our template can be found: https://github.com/jnaiman/online_cv_public/blob/main/_layouts/default.html">
 
 </div>
 
@@ -399,7 +399,7 @@ there are also some "built in" filters which can help control how content looks,
 
 <div class="right">
 
-<img src="images/jekyll/layouts.png" alt="source: Diptendra Bagchi">
+<img src="images/jekyll/layouts.png" alt="Screenshot of an example 'layout.html' file which combines Objects, Tags, and Filters.  An example from our template can be found: https://github.com/jnaiman/online_cv_public/blob/main/_layouts/default.html">
 
 </div>
 
@@ -460,7 +460,7 @@ Cons:
  * [Squarespace](https://en.wikipedia.org/wiki/Squarespace)
 
 
-<img src="images/jekyll/otherwebdev.png" width="800" alt="source: Diptendra Bagchi"/>
+<img src="images/jekyll/otherwebdev.png" width="800" alt="Screenshot of several website builders like Wix, WordPress, etc."/>
 
 
 notes:
@@ -474,7 +474,7 @@ there will be pros/cons to using these as well!  like cost, but also the cost of
 
 ## vega-lite with Jekyll
 
-<img src="images/jekyll/vegalite_jekyll3.png">
+<img src="images/jekyll/vegalite_jekyll3.png" alt="Screenshot of our example project from our Jekyll template in Lab 6.  The code for this lives: https://raw.githubusercontent.com/jnaiman/online_cv_public/refs/heads/main/_projects/1_Vega_lite_project.md">
 
 Link to interactive version [here](https://jnaiman.github.io/online_cv_public/projects/1-vega-lite-project).
 
@@ -487,7 +487,7 @@ using the template, we'll also be able to support including our vega-lite creati
 
 We will use [Altair](https://altair-viz.github.io/index.html) to translate between any Python analysis and vega-lite json's (we did this in your Homework #1 as a test):
 
-<img src="images/jekyll/altair1.png" height="600px">
+<img src="images/jekyll/altair1.png" height="600px" alt="Screenshot of the end of Homework 1 showing an example of creating an interactive plot in Python with Altair.">
 
 notes:
 
@@ -500,7 +500,7 @@ we actually already used a tiny bit of altair to generate a plot in your test ho
 
 ## Summary
 
-<img src="images/jekyll/words2.png" width="700"/>
+<img src="images/jekyll/words2.png" width="700" alt="Screenshot of the 'oh no!' screaming emoji with words like 'Javascript', 'CSS', 'Liquid', 'Jekyll' surrounding the emoji."/>
 
 notes:
 So we just covered a lot of new terms. The worldwide web is a real patchwork of different languages with different syntaxes meant to do different things. Don't let it overwhelm you. They tend to be pretty simple to start, and only get more complicated when you need them to.
@@ -511,7 +511,7 @@ and again, we'll be using templates and mostly markdown -- all of this more comp
 
 ## Summary
 
-<img src="images/jekyll/html.png" width="700"/>
+<img src="images/jekyll/html.png" width="700" alt="An example HTML page structure as a DOM (document object model).  At the top level is the root element, which then breaks down to elements like title, body, and further into headers and paragraphs."/>
 
 notes:
 We talked about this before, but just as a reminder:
@@ -528,7 +528,7 @@ this is what all of our templates will be modifying for us
 
 ## Summary
 
-<img src="images/jekyll/css.png" width="700"/>
+<img src="images/jekyll/css.png" width="700" alt="Examples of CSS styling for headers and body changing things like color, background, and borders."/>
 
 notes:
 you might have heard of something like CSS to modify the styles of HTML pages
@@ -544,7 +544,7 @@ again, our templates and yaml options will take care of all of this for us
 
 ## Summary
 
-<img src="images/jekyll/javascript2.png" width="700"/>
+<img src="images/jekyll/javascript2.png" width="700" alt="Example of JavaScript code that shows a function that would draw a ball of a specific radius."/>
 
 notes:
 JavaScript is a dynamic programming language that runs natively on webpages that we've been using the past few weeks in Streamlit. If you want to run programming logic in a webpage, you use javascript. If you see interactivity or animated effects on a website, you can generally expect they were written in javascript. 
