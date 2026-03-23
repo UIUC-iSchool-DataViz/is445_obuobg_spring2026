@@ -9,5 +9,5 @@ notitle: true
 
 Why are you on this page?  Go have a fun time!
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3KKO_R6NrXqxGTxOYBWSbNo70XbMtbv3CGg&s)
+![Image of a corgi wearing a crown at the beach.  Corgi looks relaxed and happy!](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3KKO_R6NrXqxGTxOYBWSbNo70XbMtbv3CGg&s)
 
