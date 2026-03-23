@@ -7,6 +7,13 @@ date: 2025-10-27
 
 ---
 
+## Reminder: "Temperature Taking" Survey!
+
+notes:
+**show where this is**
+
+---
+
 <br />
 <br />
 <br />
