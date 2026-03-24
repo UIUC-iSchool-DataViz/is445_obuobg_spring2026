@@ -146,6 +146,8 @@
 └── _config.yml
 </code></pre></div></div>
 
+<p>Note: some of this review is covered in the README found here: <a href="https://github.com/jnaiman/online_cv_public">https://github.com/jnaiman/online_cv_public</a></p>
+
 <h3 id="summary-of-commands">Summary of commands</h3>
 
 <p>Here is the list of commands to reference for updating your page locally and pushing those changes to your remote github.io page.</p>
@@ -183,15 +185,100 @@
 
 <p>Expand each element below to read more about each directory/file.</p>
 
-<h1 id="--here-updating--">———- HERE UPDATING ————-</h1>
-
 <details>
-  <summary>Click to expand</summary>
+  <summary style="font-size: 22px;"><strong>_config.yml</strong></summary>
 
-  This is the collapsible content. Any HTML!! syntax can be used here, 
-  including lists, <b>bold</b> text, or [links](https://example.com).
+
+<p>This file is the first file we’ll really start modifying.  In this file you’ll see a lot of ways to modify the different parameters in your webpage.</p>
+
+<img src="images/jekyll_tour/image3.png" width="80%" alt="Screenshot of the _config.yml file highlighting the first few comments at the top showing basic instructions for how to use this file to personalize the template webpage." style="border: 5px solid gray;" />
+
+<p>At the top you see some instructions of how to modify this page.  What we will do is fill in your new info, re-build the webpage with <code>bundle exec jekyll serve</code> to see our new webpage and then push these changes to our github.io pages repository when we are happy with those changes.</p>
+
+<p>Let's try this by changing one thing first, the title – right now its "PossibleCorg", but you probably want something different!</p>
+
+<img src="images/jekyll_tour/image23.png" width="80%" alt="Screenshot of the _config.yml file highlighting the 'title : PossibleCorg' line that needs to be modified with your name." style="border: 5px solid gray;" />
+
+<p>We'll walk through this, <b>but don’t do it yet</b> (we still need to update things for your page!)</p> 
+
+<ul>
+<li> Change this to "[Last Name] Resume"</li>
+<li>Run <code>bundle exec jekyll serve</code> and see what happens locally  </li>
+<li>Push to github, in the Terminal/Anaconda Prompt (make sure you have git installed!) do:</li>
+<ul>  
+  <li><code>git pull</code> (ONLY IF you have edited things online in your repo)  </li>
+  <li><code>git status</code> (to see changes)  </li>
+  <li><code>git add -A</code> (add all changes)  </li>
+  <li><code>git commit -m "message"</code> (commit changes)</li>  
+  <li><code>git push</code> (push all changes)  </li>
+  <li>NOTE!!: if you have edited things online you will get a merge warning, you need to download your repository (<code>git pull</code>) and merge (<code>git merge</code>) and then commit this (<code>git commit -m</code>) – it will be easier if you do everything locally instead of using the GUI!  </li>
+</ul>
+<li>After some build time, your new Environment/Deployment with your changes will be updated on your github.io page (also see the "Actions" tab).</li>
+</ul>
+
+<p>This process takes a bit of a while to build to a full, hosted webpage, so generally, we’ll just host locally and check out some changes when we re-build and then we’ll push to our github.io repository when we have done enough changes.  Also! We haven’t updated things to point to your specific github page!  So this won’t work. Let’s work on that.</p>
+
+<p>A few other items in this file that might be interesting to change:  </p>
+
+<img src="images/jekyll_tour/image7.png" width="80%" alt="Screenshot of the _config.yml file highlighting the 'description : ' line that needs to be modified with your self description." style="border: 5px solid gray;" />
+
+<p>Update the description to say a little bit about yourself.</p>
+
+<img src="images/jekyll_tour/image18.png" width="80%" alt="Screenshot of the _config.yml file highlighting the 'repository : ' line that needs to be modified with your GitHub user or repository name." style="border: 5px solid gray;" />
+
+<p>Make sure this points to <b>your</b> GitHub page!  This should be your user name (see the description).</p>
+
+<p>Another thing you probably want to change in the future, is the link – if you want this as your main github.io page (i.e. where employers will “land” if they come to your github.io page) you can set the “baseurl” to just empty quotes “”:  </p>
+
+<img src="images/jekyll_tour/image24.png" width="80%" alt="Screenshot of the _config.yml file highlighting the 'respository : ' line that needs to be modified with your GitHub user or repository name." style="border: 5px solid gray;" />
+Since we are still working on things, we’ll leave it as is and see that we need to add this part to the URL when we want to see our build on our github.io page.
+
+Some other things we might want to change are our name, the image that we use for ourselves, and then any relevant links we want to appear as icons under our name:  
+![][image10]
+
+The last thing to check is that we are excluding files from our build that we don’t want included in our webpage.  You might have stuff stored in your github.io page other than this template and we don’t want to accidentally build this in into your page:
+
+![][image11]  
+What other files do we want to look at?  Before modifying things extensifly, we can check a few more out.
+
+**You can run an interactive version that will reload with your changes with “bundle exec jekyll serve \-l” but it will crash if you have another interactive instance going.  You can always do “bundle exec jekyll serve” and then manually refresh to see your changes.**
 
 </details>
+
+<h2 id="less-important-elements">Less Important Elements</h2>
+
+<p>We won’t be going over these in detail, they are listed below as reference.  Expand each element below to read more about each directory/file.</p>
+
+<details>
+  <summary style="font-size: 22px;"><strong>README.md</strong></summary>
+
+  <p>This file is where you can give anybody that stumbles across the repository a bit more info about the source code.  In a text editor, it will look something like:</p>
+
+  <img src="images/jekyll_tour/image11.png" width="80%" alt="Screenshot of the README.md file from within an emacs text editor." style="border: 5px solid gray;" />
+
+  <p>Which, if you go to the <a href="https://github.com/jnaiman/online_cv_public">online_cv GitHub repository</a> gets rendered to:  </p>
+
+  <img src="images/jekyll_tour/image15.png" width="80%" alt="Screenshot of how the README.md file looks when rendered on github at: https://github.com/jnaiman/online_cv_public" style="border: 5px solid gray;" />
+
+  <p>You will not generally have to modify anything in this file.</p>
+
+</details>
+
+<details>
+  <summary style="font-size: 22px;"><strong>Gemfile</strong></summary>
+
+<p>This file tells bundler what to install that is needed for our project.  In this case, some jekyll stuff and some github pages stuff.  </p>
+ 
+  <img src="images/jekyll_tour/image19.png" width="80%" alt="Screenshot of how the Gemfile within the emacs text editor showing various gem-install commands." style="border: 5px solid gray;" />
+
+<p>When you run <code>bundle install</code> bundler takes this file and creates a <code>Gemfile.lock</code> with all of the specific versions of packages that are installed (we won't be looking at that but you can check yours out if you want).</p>
+
+<p>You don’t need to generally modify this file unless packages become incompatible with your version of Ruby/Jekyll, but if you create your own webpage not using the template, you might have to install other packages.</p>
+
+
+</details>
+
+<h1 id="--here-updating--">———- HERE UPDATING ————-</h1>
 
 <p><strong>Timing</strong>: these notes happen after we have introduced Jekyll in a lecture</p>
 
