@@ -15,7 +15,9 @@ description: Tour of our Jekyll Template
 │   └── utils.py
 ├── tests/
 │   └── test_main.py
-└── README.md
+├── README.md
+├── Gemfile
+└── _config.yml
 ```
 
 
