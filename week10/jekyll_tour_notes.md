@@ -4,28 +4,59 @@ layout: assignment
 description: Tour of our Jekyll Template
 ---
 
+## General Overview
+
+The structure of important files in the template is shown below.  Note there are other files in several of the other directories, but this outlines the files we want to pay careful attention to.
+
 ```
 <your github username>.github.io/
-├── docs/
-│   ├── index.md
-│   ├── setup.md
-│   └── _order.yaml
-├── src/
-│   ├── main.py
-│   └── utils.py
-├── tests/
-│   └── test_main.py
+├── _data/
+│   ├── programming-skills.yml
+│   ├── other-skills.yml
+│   └── timeline.yml
+├── _example_posts/
+├── _example_projects/
+├── includes/
+├── layouts/
+├── _plugins/
+├── _posts/
+├── _projects/
+│   └── 1_Vega_lite_project.md
+├── assets/
+│   ├── jsons/
+│   └── pngs/
+├── pages/
+│   ├── projects.html
+│   └── about.md
+├── python_notebooks/
 ├── README.md
 ├── Gemfile
 └── _config.yml
 ```
 
+### Summary of commands
+
+Here is the list of commands to reference for updating your page locally and pushing those changes to your remote github.io page.
+
+#### Installation (already completed in course)
+
+This should already be accomplished in Lab \#6 but in brief:
+1. Create and clone a [github.io pages instance](https://docs.github.com/en/pages)
+2. [Install](https://jekyllrb.com/docs/installation/) Ruby (~version 3.4) and Jekyll
+3. 
+
+* use 
+
+## Important Elements
+
+Expand each element below to 
 
 <details>
   <summary>Click to expand</summary>
 
-  This is the collapsible content. Any Markdown syntax can be used here, 
-  including lists, **bold** text, or [links](https://example.com).
+  This is the collapsible content. Any HTML!! syntax can be used here, 
+  including lists, <b>bold</b> text, or [links](https://example.com).
+
 </details>
 
 **Timing**: these notes happen after we have introduced Jekyll in a lecture

@@ -117,26 +117,62 @@
                 <div class="section">
                     <div class="content">
                         <h1>Jekyll Tour Notes (MD)</h1>
-                        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;your github username&gt;.github.io/
-├── docs/
-│   ├── index.md
-│   ├── setup.md
-│   └── _order.yaml
-├── src/
-│   ├── main.py
-│   └── utils.py
-├── tests/
-│   └── test_main.py
+                        <h2 id="general-overview">General Overview</h2>
+
+<p>The structure of important files in the template is shown below.  Note there are other files in several of the other directories, but this outlines the files we want to pay careful attention to.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;your github username&gt;.github.io/
+├── _data/
+│   ├── programming-skills.yml
+│   ├── other-skills.yml
+│   └── timeline.yml
+├── _example_posts/
+├── _example_projects/
+├── includes/
+├── layouts/
+├── _plugins/
+├── _posts/
+├── _projects/
+│   └── 1_Vega_lite_project.md
+├── assets/
+│   ├── jsons/
+│   └── pngs/
+├── pages/
+│   ├── projects.html
+│   └── about.md
+├── python_notebooks/
 ├── README.md
 ├── Gemfile
 └── _config.yml
 </code></pre></div></div>
 
+<h3 id="summary-of-commands">Summary of commands</h3>
+
+<p>Here is the list of commands to reference for updating your page locally and pushing those changes to your remote github.io page.</p>
+
+<h4 id="installation-already-completed-in-course">Installation (already completed in course)</h4>
+
+<p>This should already be accomplished in Lab #6 but in brief:</p>
+<ol>
+  <li>Create and clone a <a href="https://docs.github.com/en/pages">github.io pages instance</a></li>
+  <li><a href="https://jekyllrb.com/docs/installation/">Install</a> Ruby (~version 3.4) and Jekyll</li>
+  <li></li>
+</ol>
+
+<ul>
+  <li>use</li>
+</ul>
+
+<h2 id="important-elements">Important Elements</h2>
+
+<p>Expand each element below to</p>
+
 <details>
   <summary>Click to expand</summary>
 
-  This is the collapsible content. Any Markdown syntax can be used here, 
-  including lists, **bold** text, or [links](https://example.com).
+  This is the collapsible content. Any HTML!! syntax can be used here, 
+  including lists, <b>bold</b> text, or [links](https://example.com).
+
 </details>
 
 <p><strong>Timing</strong>: these notes happen after we have introduced Jekyll in a lecture</p>
