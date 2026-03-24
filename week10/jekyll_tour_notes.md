@@ -65,7 +65,11 @@ For this you will use the same commands you used in Lab \#6 in the Terminal/Anac
 
 ## Important Elements
 
-Expand each element below to 
+Expand each element below to read more about each directory/file.
+
+
+# ---------- HERE UPDATING -------------
+
 
 <details>
   <summary>Click to expand</summary>
