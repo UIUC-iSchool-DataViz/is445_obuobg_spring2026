@@ -43,9 +43,25 @@ Here is the list of commands to reference for updating your page locally and pus
 This should already be accomplished in Lab \#6 but in brief:
 1. Create and clone a [github.io pages instance](https://docs.github.com/en/pages)
 2. [Install](https://jekyllrb.com/docs/installation/) Ruby (~version 3.4) and Jekyll
-3. 
+3. [Download the template](https://github.com/jnaiman/online_cv_public), move files into your github.io pages instance locally
+4. Install gems with `bundle install` in your local github.io pages directory
 
-* use 
+#### Serving files locally
+
+Use `bundle exec jekyll serve` in your github.io directory to host your webpage (note you will have to manually refresh your webpage each time you modify your local files).
+
+For "live" reloading instead use `bundle exec jekyll serve -l`.  Note: you can only use live reloads for one locally hosted page at a time (otherwise you will get a long and nebulous error).
+
+**If you change the `_config.yml` file you will have to kill (`CTRL+C`) and restart the serve command.** All other files will automatically update changes to your locally served webpage if you use the `-l` option.
+
+#### Pushing changes to your remote github.io remote 
+
+For this you will use the same commands you used in Lab \#6 in the Terminal/Anaconda Prompt (make sure you have git installed\!):
+  * `git pull` (ONLY IF you have edited things online in your repo)  
+  * `git status` (to see changes)  
+  * `git add -A` (add all changes)  
+  * `git commit -m` "message" (commit changes)  
+  * `git push` (push all changes)  
 
 ## Important Elements
 
