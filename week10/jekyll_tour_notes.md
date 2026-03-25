@@ -200,6 +200,30 @@ Expand each element below to read more about each directory/file.
 <p>Note this is <b>ORDER DEPENDENT</b>.  If we wanted our most recent position to be on top, we can re-order this to put that on top.  Whatever order it is in this file is the order it will show up on your About page timeline.</p>
 </details>
 
+
+<details>
+  <summary style="font-size: 22px;"><strong>_projects/</strong></summary>
+
+<img src="images/jekyll_tour/image10.png" width="70%" alt="Screenshot of the template file structure with the contents of the _project/ directory listed (with a ls command on Mac/Linux).  A single example project is shown." style="border: 5px solid gray;">
+
+<p>Finally, we have your projects directory – this is where we will spend the majority of our time.  Here we will add projects that include interactive data visualizations.  The template includes project 1, in a file called <code>1_Vega_lite_project.md</code> which is a basic vega-lite example.  </p>
+
+<p>Note the formatting here – there is a <code>1_</code> to indicate we want this project to come first in our list as it shows up on our projects page!</p>
+
+<p>If we open up this template file in a text editor:  </p>
+<img src="images/jekyll_tour/image5.png" width="70%" alt="Screenshot of the the file _projects/1_Vega_lite_project.md opened in the emacs text editor.  The top shows a yaml snippet and the rest of the project page is written in a combination of Markdown and small snippets of HTML." style="border: 5px solid gray;">
+<p>we see a few things - there are some yaml snippets at the top that change the name of the project, what tool tags you want to use, an image to show on the projects page and a description.</p>
+
+<p><b>Of vital importance!  If you are using vega-lite to make interactive plots, you MUST include the <code>custom_js</code> lines!!!</b></p>
+
+<p>Other than those specifics, the rest of the file will be mostly written in markdown, with the occasional use of <code>\<vegachart\></code> HTML tags that we will use to make interactive visualizations.</p>
+
+
+
+</details>
+
+
+
 <!-- LESS IMPORANT -->
 
 
@@ -299,6 +323,11 @@ We won't be going over these in detail, they are listed below as reference (thes
 
 <p>This shows up as an “automatic” card under our projects folder.  You won’t see <b>my</b> repository, even though it is included in the template you are using since it is not related to your repo!</p>
 </details>
+
+<p>
+<p>That is the end of our overview!  Now we will dig a bit deeper into how to add projects and how to include vega-lite to make some interactive plots.  To do this, start with the vega-editor to make a quick example, then move to Python to start translating some of the stuff we’ve done on Starboard into this format.</p>
+
+<p>Vega-lite-ho!</p>
 
 # ---------- HERE UPDATING -------------
 
