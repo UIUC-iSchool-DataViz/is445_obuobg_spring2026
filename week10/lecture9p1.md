@@ -7,10 +7,17 @@ date: 2025-10-27
 
 ---
 
-## Reminder: "Temperature Taking" Survey!
+## Reminder \#1: "Temperature Taking" Survey!
 
 notes:
 **show where this is**
+
+---
+
+## Reminder \#2: Prof. Jill Traveling this week/next
+
+* Prof. Office Hours canceled this/next week (but ping on Slack in assignment-question channel!)
+* Next week modality: pre-recorded material and "extra" TA Office Hours
 
 ---
 
