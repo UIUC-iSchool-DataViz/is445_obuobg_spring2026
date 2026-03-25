@@ -1,5 +1,5 @@
 ---
-title: Jekyll Tour Notes (MD)
+title: Jekyll Tour Notes
 layout: assignment
 description: Tour of our Jekyll Template
 ---
