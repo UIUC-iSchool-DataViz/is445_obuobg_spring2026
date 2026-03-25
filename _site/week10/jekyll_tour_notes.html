@@ -244,9 +244,26 @@
 
 </details>
 
+<details>
+  <summary style="font-size: 22px;"><strong>assets/</strong></summary>
+
+<p>Inside the assets folder there are a few folders that we will add things to.  In particular, we will store any screenshots/images in <code>assets/pngs</code> and any vega-lite output JSON’s in the <code>assets/json</code> folder.  More on this when we get to making interactive plots on our webpage.  </p>
+<img src="images/jekyll_tour/image27_mod.png" width="80%" alt="Screenshot of the directory structure of the template.  The assets/ directory is highlighted, and when listed (with ls command on a Mac/Linux) we see the png/ and json/ directories highlighted as well." style="border: 5px solid gray;" />
+
+</details>
+
+<details>
+  <summary style="font-size: 22px;"><strong>python_notebooks/</strong></summary>
+
+<img src="images/jekyll_tour/image2_mod.png" width="80%" alt="Screenshot of the directory structure of the template.  The python_notebooks/ directory is highlighted, and when listed (with ls command on a Mac/Linux) we see the README.md with directions for how to use the directory and a test_generate_plots.ipynb notebook that is an example of a Python notebook that can be stored in this folder." style="border: 5px solid gray;" />
+<p>This is where you can store “loose” python notebooks.  In theory, you will link to your analysis plots in whatever repositories are storing those analysis notebooks, but just in case you want to do something “quick and dirty” and link that notebook, you can put it here.  Check out the <a href="https://github.com/jnaiman/online_cv_public/tree/main/python_notebooks">README</a> for updates, but that is the gist of this folder </p>
+</details>
+
+<!-- LESS IMPORANT -->
+
 <h2 id="less-important-elements">Less Important Elements</h2>
 
-<p>We won’t be going over these in detail, they are listed below as reference.  Expand each element below to read more about each directory/file.</p>
+<p>We won’t be going over these in detail, they are listed below as reference (these are useful to reference if you’re building a new site with your own template but want to include Altair/vega-lite plots).  Expand each element below to read more about each directory/file.</p>
 
 <details>
   <summary style="font-size: 22px;"><strong>README.md</strong></summary>
@@ -274,6 +291,14 @@
 
 <p>You don’t need to generally modify this file unless packages become incompatible with your version of Ruby/Jekyll, but if you create your own webpage not using the template, you might have to install other packages.</p>
 
+</details>
+
+<details>
+  <summary style="font-size: 22px;"><strong>_plugins/</strong></summary>
+
+  <img src="images/jekyll_tour/image28_mod.png" width="80%" alt="Screenshot of how the directory structure of the template with the _plugins directory highlighted." style="border: 5px solid gray;" />
+
+<p>Some other interesting files to know about (but that you don’t need to edit) is the <code>_plugins</code> – this is where the code to do interactive visualizations with vega-lite (like vegachart_tags).  There are some other things listed here as well that we are really going to ignore. These plugins come from the <a href="https://github.com/4dcu-be/4dcu.be">4dcu-be Jekyll template</a>.</p>
 
 </details>
 
