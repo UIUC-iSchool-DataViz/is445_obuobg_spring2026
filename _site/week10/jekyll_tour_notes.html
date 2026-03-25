@@ -230,18 +230,17 @@
 
 <p>Another thing you probably want to change in the future, is the link – if you want this as your main github.io page (i.e. where employers will “land” if they come to your github.io page) you can set the “baseurl” to just empty quotes “”:  </p>
 
-<img src="images/jekyll_tour/image24.png" width="80%" alt="Screenshot of the _config.yml file highlighting the 'respository : ' line that needs to be modified with your GitHub user or repository name." style="border: 5px solid gray;" />
-Since we are still working on things, we’ll leave it as is and see that we need to add this part to the URL when we want to see our build on our github.io page.
+<img src="images/jekyll_tour/image24_mod.png" width="80%" alt="Screenshot of the _config.yml file highlighting the 'baseurl : ' line that can be modified to point to a specific location." style="border: 5px solid gray;" />
+<p>Since we are still working on things, we’ll leave it as is and see that we need to add this part to the URL when we want to see our build on our github.io page.</p>
 
-Some other things we might want to change are our name, the image that we use for ourselves, and then any relevant links we want to appear as icons under our name:  
-![][image10]
+<p>Some other things we might want to change are our name, the image that we use for ourselves, and then any relevant links we want to appear as icons under our name:  </p>
+<img src="images/jekyll_tour/image14.png" width="80%" alt="Screenshot of the _config.yml file highlighting the 'author : ' line and options below.  The name option updates your name, and the image option is modified to point to a URL where an image of you is kept.  Other options will add icons and links to various social media/other accounts (e.g., GitHub, linkedin, facebook, etc.)" style="border: 5px solid gray;" />
 
-The last thing to check is that we are excluding files from our build that we don’t want included in our webpage.  You might have stuff stored in your github.io page other than this template and we don’t want to accidentally build this in into your page:
+<p>The last thing to check is that we are excluding files from our build that we don’t want included in our webpage.  You might have stuff stored in your github.io page other than this template and we don’t want to accidentally build this in into your page:</p>
 
-![][image11]  
-What other files do we want to look at?  Before modifying things extensifly, we can check a few more out.
-
-**You can run an interactive version that will reload with your changes with “bundle exec jekyll serve \-l” but it will crash if you have another interactive instance going.  You can always do “bundle exec jekyll serve” and then manually refresh to see your changes.**
+<img src="images/jekyll_tour/image17.png" width="80%" alt="Screenshot of the _config.yml file highlighting the 'exclude : ' line and options below.  These list files that we don't want to have built into your final webpage (like the README.md, python_notebooks/, etc files and directories)." style="border: 5px solid gray;" />
+<p></p>
+<p><b>Reminder: You can run an interactive version that will reload with your changes with <code>bundle exec jekyll serve -l</code> but it will crash if you have another interactive instance going.  You can always do <code>bundle exec jekyll serve</code> and then manually refresh to see your changes.</b></p>
 
 </details>
 
