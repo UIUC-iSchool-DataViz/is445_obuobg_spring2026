@@ -56,7 +56,7 @@ For "live" reloading instead use `bundle exec jekyll serve -l`.  Note: you can o
 
 **If you change the `_config.yml` file you will have to kill (`CTRL+C`) and restart the serve command.** All other files will automatically update changes to your locally served webpage if you use the `-l` option.
 
-#### Pushing changes to your remote github.io remote 
+#### Pushing changes to your remote github.io  
 
 For this you will use the same commands you used in Lab \#6 in the Terminal/Anaconda Prompt (make sure you have git installed\!):
   * `git pull` (ONLY IF you have edited things online in your repo)  
