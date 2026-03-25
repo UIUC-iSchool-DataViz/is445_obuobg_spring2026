@@ -210,6 +210,25 @@ We won't be going over these in detail, they are listed below as reference (thes
 </details>
 
 
+<details>
+  <summary style="font-size: 22px;"><strong>_example_posts/ and _example_projects/</strong></summary>
+  <img src="images/jekyll_tour/image8.png" width="80%" alt="Screenshot of how the directory structure of the template with the _example_projects/ and _example_posts/ directories.  Contents of each are listed (with ls command on a Mac/Linux) to see the full range of project and post examples." style="border: 5px solid gray;">
+<p>These two folders contain some example projects and blog posts you can look at.  Since we’ll be building our own in a bit, we won’t focus on these now, but they are there for you to come back to look at after we’ve started building our own to get some ideas.</p>
+</details>
+
+<details>
+  <summary style="font-size: 22px;"><strong>_posts/</strong></summary>
+  <img src="images/jekyll_tour/image13.png" width="80%" alt="Screenshot of how the directory structure of the template with the _posts/ directory.  Contents is listed (with ls command on a Mac/Linux) showing a single example blog post." style="border: 5px solid gray;">
+<p>This contains a placeholder blog post if you want to talk about new things in your life, i.e. in a blog style.  Note the format of these with the filename starting with YYYY-MM-DD (year, month, date).</p>
+
+<p>If you open this file up in a text editor, you’ll see that its mostly markdown:  </p>
+  <img src="images/jekyll_tour/image21.png" width="80%" alt="The single blog post in the _posts/ directory opened with the emacs text editor.  Top show yaml structure and rest of post is written in Markdown." style="border: 5px solid gray;">
+<p>With some yaml lines at the top that give specific parameters for each blog post, like title, any tags, color, etc.  See the <code>_example_posts/</code> directory for more examples.  </p>
+
+<p>We won’t be focusing on blog posts for this class, but you can certainly check out the examples to get started if you want to blog.  <b>To add blogs to your page make sure to comment out the <code>- pages/blog.html</code> line in the <code>_config.yml</code> file.</b></p>
+
+</details>
+
 # ---------- HERE UPDATING -------------
 
 
