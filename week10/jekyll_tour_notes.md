@@ -190,6 +190,25 @@ We won't be going over these in detail, they are listed below as reference (thes
 
 </details>
 
+<details>
+  <summary style="font-size: 22px;"><strong>_layouts/</strong></summary>
+
+  <img src="images/jekyll_tour/image1_mod.png" width="80%" alt="Screenshot of how the directory structure of the template with the _layouts directory highlighted, and when listed (with ls command on a Mac/Linux) we see several layout files including default.html, element.html, page.html, and post.html." style="border: 5px solid gray;">
+<p>Another set of files that we won’t really mess with is the layouts in the _layouts folder.  These are ways to define different layouts for different kinds of pages.  How our different pages look is also modified by things in the <code>_includes</code> directory as well.</p>
+
+</details>
+
+<details>
+  <summary style="font-size: 22px;"><strong>_includes/</strong></summary>
+
+<p>This also includes some info about how different pages will look.  </p>
+  <img src="images/jekyll_tour/image12_mod.png" width="80%" alt="Screenshot of how the directory structure of the template with the _includes directory highlighted, and when listed (with ls command on a Mac/Linux) we see several layout files and directories." style="border: 5px solid gray;">
+<p>For example, if we look in the <code>_includes/projects</code> folder:  </p>
+  <img src="images/jekyll_tour/image25.png" width="80%" alt="Screenshot of how the directory structure of the _includes/projects with the files index.html and project-card.html which determine how project cards look when our project files are rendered in to html." style="border: 5px solid gray;">
+<p>We see how each project card will look is probably determined in the <code>project-card.html</code> file and the general projects page is determined with the <code>index.html</code></p>.
+
+</details>
+
 
 # ---------- HERE UPDATING -------------
 
