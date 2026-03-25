@@ -146,7 +146,65 @@ Expand each element below to read more about each directory/file.
 <p>This is where you can store “loose” python notebooks.  In theory, you will link to your analysis plots in whatever repositories are storing those analysis notebooks, but just in case you want to do something “quick and dirty” and link that notebook, you can put it here.  Check out the <a href="https://github.com/jnaiman/online_cv_public/tree/main/python_notebooks">README</a> for updates, but that is the gist of this folder </p>
 </details>
 
+<details>
+  <summary style="font-size: 22px;"><strong>pages/about.md</strong></summary>
+
+<p>Also in the pages directory is a file where you can modify some things for your “About” page.  In particular, you can modify your description a that appears at the top by editing the about.md file in a text editor:  </p>
+<img src="images/jekyll_tour/image4.png" width="80%" alt="Screenshot of the pages/about.md file opened in an emacs editor.  Yaml snippet is at the top and the rest of the page is written in a combination of markdown, HTML, and Liquid." style="border: 5px solid gray;">
+<p>In particular, you want to edit all the stuff above the <code>\<div class...\></code> stuff (there are other files to edit for your skills section and your timeline!!).</p>
+
+</details>
+
+<details>
+  <summary style="font-size: 22px;"><strong>_data/programming-skills.yml</strong></summary>
+
+<img src="images/jekyll_tour/image26.png" width="70%" alt="Screenshot of the _data/programming-skills.yml file opened in an emacs editor.  Several yaml snippets are shown which list various skills and proficiencies." style="border: 5px solid gray;">
+
+<p>In this file, you can include your different <b>programming</b> skills along with your proficiency.  There are a few options to add something new:</p>
+
+<ul>
+<li>Name of language  </li>
+<li>Percentage of “skill” obtained – this is a bit fuzzy, but you can think of it as the % of the bar on the top that increases/decreases  </li>
+<li>The level – this is the text that will show up on the top  </li>
+<li>The color – what color you want to make this object  </li>
+<ul>
+  <li>Where do these colors come from? Check out the file: <code>_sass/_variables.scss</code>  </li>
+</ul>
+</ul>
+
+</details>
+
+<details>
+  <summary style="font-size: 22px;"><strong>_data/other-skills.yml</strong></summary>
+
+<img src="images/jekyll_tour/image29.png" width="70%" alt="Screenshot of the _data/other-skills.yml file opened in an emacs editor.  Several yaml snippets are shown which list various skills and proficiencies." style="border: 5px solid gray;">
+
+<p>This file is very similar to the programming skills file, except it is a good place to list your various other skills.</p>
+
+</details>
+
+
+<details>
+  <summary style="font-size: 22px;"><strong>_data/timeline.yml</strong></summary>
+
+<img src="images/jekyll_tour/image22.png" width="70%" alt="Screenshot of the _data/timeline.yml file opened in an emacs editor.  Several yaml snippets are shown which list various academic and professional appointments." style="border: 5px solid gray;">
+
+<p>The final file you probably want to modify in the <code>_data</code> folder is your timeline.  For each entry you need:</p>
+
+<ul>
+<li>The title (is it a job, if so, what kind? Are you a student, if so what major?)  </li>
+<li> The start-end dates  </li>
+<li> A description (right now, the “standard” placeholder text)</li>
+</ul>
+
+<p>Note this is <b>ORDER DEPENDENT</b>.  If we wanted our most recent position to be on top, we can re-order this to put that on top.  Whatever order it is in this file is the order it will show up on your About page timeline.</p>
+</details>
+
 <!-- LESS IMPORANT -->
+
+
+
+
 
 ## Less Important Elements
 
