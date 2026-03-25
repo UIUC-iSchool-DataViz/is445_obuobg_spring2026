@@ -229,6 +229,19 @@ We won't be going over these in detail, they are listed below as reference (thes
 
 </details>
 
+<details>
+  <summary style="font-size: 22px;"><strong>_pages/projects.html</strong></summary>
+<p>One small thing we might want to change in the pages directory – this is the <code>projects.html</code> file in which we can add github projects that are already <b>under your github name</b>.</p>
+
+  <img src="images/jekyll_tour/image20.png" width="80%" alt="The _pages/projects.html file opened with the emacs text editor.  Top show yaml structure and rest of with the remote_projects location highlighted where one can update to point to remote projects stored on in their main GitHub." style="border: 5px solid gray;">
+
+<p>In the example I’ve got the name of the repository that is associated with my main github page.  For reference, the URL of this repo is: </p>
+
+<p><code>https://github.com/jnaiman/is507_spring2021</code></p>
+
+<p>This shows up as an “automatic” card under our projects folder.  You won’t see <b>my</b> repository, even though it is included in the template you are using since it is not related to your repo!</p>
+</details>
+
 # ---------- HERE UPDATING -------------
 
 
