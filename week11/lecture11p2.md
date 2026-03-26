@@ -81,7 +81,7 @@ It just had to work, and we used the most convenient software.
 
 ## Viz for Self
 
-<img src="images/L25n128TNG_tmp_gas_metallicity_history.png" width="700" alt="Visualization of 'Average metallicity around stars' as a function of 'Redshift' from the IllustrisTNG simulations."/>
+<img src="images/L25n128TNG_tmp_gas_metallicity_history.png" width="700" alt="Visualization of 'Average metallicity around stars' as a function of 'Redshift' from the IllustrisTNG simulations. This is an example of 'viz for self' so there is little care taken fo understandability for others."/>
 
 notes:
 Here are some examples from my work
@@ -94,7 +94,7 @@ There are plots of data from a large scale simulation of the universe.  Here, I'
 
 name of: L25n512TNG_shenplot_STARS_ylimn0p5_bins_largeEu_1e2_nx050_ny050_sn099.png
 
-<img src="images/L25n512TNG_shenplot_STARS_ylimn0p5_bins_largeEu_1e2_nx050_ny050_sn099.png" width="500"/>
+<img src="images/L25n512TNG_shenplot_STARS_ylimn0p5_bins_largeEu_1e2_nx050_ny050_sn099.png" width="500" alt="Visualization of '[Eu/Fe]' as a function of '[Fe/H]' from the IllustrisTNG simulations for currently star forming galaxies. This is an example of 'viz for self' so there is little care taken fo understandability for others and legends are small, colormap is not carefully considered."/>
 
 notes:
 You can even tell from the name of the file (which runs off the page here) that I'm playing with a bunch of things.  For example I'm plotting here stars, but there is no way you'd really get that from the actual plot itself.
@@ -107,7 +107,7 @@ These are plots that show an example of how one might "explore" the data - look 
 
 Later this became (viz for peers)
 
-<img src="images/L75n1820TNG_eufef07065_allMstar_eucut_massweighted_bigrange_rfracAll_histo.png" width="600"/>
+<img src="images/L75n1820TNG_eufef07065_allMstar_eucut_massweighted_bigrange_rfracAll_histo.png" width="600" alt="Visualization of '[Eu/Fe]' as a function of '[Fe/H]' from the IllustrisTNG simulations for currently star forming galaxies. This is an example of 'viz for peers' as the prior 'viz for self' plot has been transformed into a plot for a publication.  Care has been taken with color schemes, legend readability, and using conventions from the domain."/>
 
 [Paper if you're really curious](https://arxiv.org/pdf/1707.03401.pdf)
 
@@ -200,7 +200,7 @@ To design a visualization for experts, you need to analyze how they process info
 
 ## Viz for Experts
 
-<img src="images/sci_tornado.png" width="700"/>
+<img src="images/sci_tornado.png" width="700" alt="Multipanel plot of examples of 'viz for peers' or 'viz for experts'.  Three vertical panels on the left show different views of storm velocity and other storm strength metrics.  Two panels on the left show an isosurface of the storm (top) and storm points on various days (bottom)."/>
 
 notes:
 Here's a series of visualizations made by or for domain experts that AJ just had lying around on his laptop.
