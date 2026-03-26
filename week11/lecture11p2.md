@@ -9,7 +9,7 @@ date: 2025-11-03
 
 ## Last Week
 
-<img src="images/week11_before.png">
+<img src="images/week11_before.png" alt="Mindmap visualization of materials covered last week with Jekyll and Altair/Vega-lite being the most recently covered.">
 
 notes:
 reminder of where we are as of last week!  We started doing more stuff with Altair interactively, and started doing jekyll stuff
@@ -18,7 +18,7 @@ reminder of where we are as of last week!  We started doing more stuff with Alta
 
 ## This Week
 
-<img src="images/week11_after.png">
+<img src="images/week11_after.png" alt="Mindmap visualization of materials covered including this week, with Streamlit and Viz Audience being most recently added.">
 
 notes:
 this week we will discuss how one has to consider the audience of their visualization - is your audience you? your peers? others?
@@ -59,7 +59,7 @@ we'll get to making some apps with streamlit and huggingface!
 
 There are no rules!
 
-<img src="https://media1.giphy.com/media/EJIqwKKY30Dlu/giphy.gif">
+<img src="https://media1.giphy.com/media/EJIqwKKY30Dlu/giphy.gif" alt="Gif animation of Louis from the Bobs Burgers cartoon laughing manically in front of a large fire.">
 
 notes:
 Labels don't matter. Colors don't have to look nice. Interactivity doesn't have to be fast. Here we are just trying to get something on screen that represents the data. Often this is challenge enough.
@@ -70,7 +70,7 @@ As the designer, you know what choices you have made, so "elegant design" isn't 
 
 ## Viz for Self
 
-<img src="images/walsh.gif" width="700"/>
+<img src="images/walsh.gif" width="700" alt="Animated gif of a 1-dimensional visualization of audio levels changing over time.  The visualization is made in the 3-dimensional special effects software Houdini."/>
 
 notes:
 This is an example from AJ (the in-person instructor). He uses 3D software like Houdini in his "everyday" life and so this is his software of choice.  Here, he used 3D software to make a 2D plot, and arranged points to look like a bar chart even though they were rendered as individual points - aka a scatter plot.
@@ -81,7 +81,7 @@ It just had to work, and we used the most convenient software.
 
 ## Viz for Self
 
-<img src="images/L25n128TNG_tmp_gas_metallicity_history.png" width="700"/>
+<img src="images/L25n128TNG_tmp_gas_metallicity_history.png" width="700" alt="Visualization of 'Average metallicity around stars' as a function of 'Redshift' from the IllustrisTNG simulations."/>
 
 notes:
 Here are some examples from my work
