@@ -351,7 +351,7 @@ In visualization, we really want to tell a story, not just a list of facts.
 
 Why is that?
 
-<img src="images/storytelling.jpg"> <!-- width="1000"/>-->
+<img src="images/storytelling.jpg" alt="Diagram showing how storytelling affects the brain.  Main affects are neural coupling (listener turns story into own ideas), mirroring (listeners experience similar brain activity to each other), dopamine is released, and parts of the cortex are activated."> <!-- width="1000"/>-->
 
 notes:
 Emotional response to storytelling is an evolutionary trait humans developed to form stronger social bonds and learn from each other's experience.
@@ -371,7 +371,7 @@ play to ~2:43
 
 Freytag's Pyramid
 
-<img src="images/freytag.png" width="700"/>
+<img src="images/freytag.png" width="90%" alt="Illustration of Freytag's storytelling pyramid with Exposition at the bottom, Rising Action toward the peak, Climax a the top, falling action toward the bottom and denouement at the bottom."/>
 
 notes:
 
@@ -427,7 +427,7 @@ You can hone your narrative for certain audiences. If it's the broadest audience
 
 Images can be more powerful than words, text, and numbers. Images can tell stories.
 
-<img src="images/mlkjr.jpg" width="700"/>
+<img src="images/mlkjr.jpg" width="80%" alt="Image of the national mall in the United States capitol when Martin Luther King Jr is giving a famous speech."/>
 
 notes:
 What can you say about this event given the picture? How is this different from an average day on the National Mall in DC?
@@ -456,7 +456,7 @@ With experts, you can asssume some background of understanding.  You might start
 
 Context is vital for the public.
 
-<img src="images/canup.gif" width="600"/>
+<img src="images/canup.gif" width="70%" alt="Gif of a section of a cinematic scientific visualization from a documentary showing a physics simulation of a collision between the Earth and a small planetesimal that is thought to have created the Moon."/>
 
 notes:
 The AVL created this sequence for a movie, which originally moved much slower on a large screen, and had a narrator explaining the sequence. Someone recaptured it and made it into a gif, sharing it on reddit with the caption "A simulation of the Earth's moon being formed."
