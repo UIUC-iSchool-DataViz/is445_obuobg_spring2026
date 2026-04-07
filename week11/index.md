@@ -16,12 +16,12 @@ examples:
     type: iodide
     title: Prep Jekyll Files, Week 11
     description: In class notebook
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2025/tree/main/week11/prepJekyll
+    link: https://github.com/UIUC-iSchool-DataViz/is445_obuobg_spring2026/tree/main/week11/prepJekyll
   - filename: inClassJekyll
     type: iodide
     title: In class Jekyll Files, Week 11
     description: Updating storage of Jekyll files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2025/tree/main/week11/inClassJekyll
+    link: https://github.com/UIUC-iSchool-DataViz/is445_obuobg_spring2026/tree/main/week11/inClassJekyll
   - filename: prep_script_week10.py
     type: py
     title: Prep script file, Week 11
