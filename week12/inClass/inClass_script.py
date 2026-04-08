@@ -78,12 +78,12 @@ matplotlib
 
 st.subheader('Quick example widget')
 
-# sentiment_mapping = ["one", "two", "three", "four", "five"]
-# selected = st.feedback("stars")
-# if selected is not None:
-#   st.markdown(f"You selected {sentiment_mapping[selected]} star(s).")
+sentiment_mapping = ["one", "two", "three", "four", "five"]
+selected = st.feedback("stars")
+if selected is not None:
+  st.markdown(f"You selected {sentiment_mapping[selected]} star(s).")
 
 st.write("""I'll update this example widget:""")
 
-sentiment_mapping = ["one", "two", "three", "four", "five"]
-selected = st.feedback("stars")
+sentiment_mapping2 = ["one", "two", "three", "four", "five"]
+selected2 = st.feedback("stars2")
