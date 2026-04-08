@@ -809,6 +809,9 @@ notes: we haven't covered any viz effects tools but here are a few to be aware o
 
 [ytini](www.ytini.com)
 
+notes:
+a project called "ytini" was built to help interface with these scientific software (yt) and the VFX software (Houdini)
+
 
 ---
 
@@ -862,30 +865,6 @@ several of us at the NCSA worked on ytini so that Houdini could use some of the 
 
 This is also true of Dr. Naiman's work on Astroblend.
 
----
-
-## Scientific Viz Tools VERSUS Visual Effects Tools
-
-<img src="images/graphics3d/versus.png" width="800" alt="Table "/>
-
-notes: here is a quick comparison chart to show key differences between a package like yt  & a special effects tool like houdini
-
----
-
-## Scientific Viz Tools VERSUS Visual Effects Tools
-
-<img src="images/graphics3d/ytiniVersus.png" width="800"/>
-
-[ytini](www.ytini.com)
-
-[Astroblend](www.astroblend.com)
-
-### More from the NCSA's Advanced Visualization Lab next class!
-
-notes:
-several of us at the NCSA worked on ytini so that Houdini could use some of the features of yt natively!
-
-This is also true of Dr. Naiman's work on Astroblend.
 
 ---
 
