@@ -5,7 +5,7 @@ colorFrom: blue
 colorTo: gray
 sdk: streamlit
 sdk_version: 1.36.0
-app_file: inClass_script_week10.py
+app_file: inClass_script.py
 pinned: false
 license: mit
 ---
