@@ -35,7 +35,7 @@ notes:
 
 ---
 
-## Reminder: Change of Modalities Week 15 & 16
+## Heads up: Change of Modalities Week 15 & 16
 
 Weeks 15 & 16 will have some pre-recorded materials for the extra credit assignments (SciViz, Network Viz, Text Viz).
 
@@ -866,12 +866,4 @@ several of us at the NCSA worked on ytini so that Houdini could use some of the 
 This is also true of Dr. Naiman's work on Astroblend.
 
 
----
 
-## Final Project, Part 2
-
-You should be able to take a look as a group, and we'll look again next week!
-
-notes:
-
-* go over final project part 2!
