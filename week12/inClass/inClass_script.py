@@ -86,4 +86,4 @@ if selected is not None:
 st.write("""I'll update this example widget:""")
 
 sentiment_mapping2 = ["one", "two", "three", "four", "five"]
-selected2 = st.feedback("stars", key="feedback2")
+selected2 = st.feedback("stars", key="feedback2") # for this version, need to specify separate keys
