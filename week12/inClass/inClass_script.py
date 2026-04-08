@@ -67,3 +67,5 @@ fig, ax = plt.subplots()
 df['Graduation'].plot(kind='hist',ax=ax)
 #plt.show() # typically this won't work with streamlit
 st.pyplot(fig)
+
+st.write("""Note that I have added things to the requirements.txt file """)
