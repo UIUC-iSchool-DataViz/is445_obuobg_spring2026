@@ -94,3 +94,27 @@ if selected2 is not None: # only run what is below if star is selected
     st.markdown("Glad you have chosen more stars")
   else:
     st.markdown("Hurray!  You like stars!")
+
+st.subheader('Can also include Altair Dashboards')
+
+brush = alt.selection_interval(encodings=['x','y'])
+
+chart1 = alt.Chart(mobility_url).mark_rect().encode(
+    alt.X("Student_teacher_ratio:Q", bin=alt.Bin(maxbins=10)),
+    alt.Y("State:O"),
+    alt.Color("count()")
+).properties(
+    height=400
+).add_params(
+    brush
+)
+
+chart2 = alt.Chart(mobility_url).mark_bar().encode(
+    alt.X("Mobility:Q", bin=True, axis=alt.Axis(title='Mobility Score')),
+    alt.Y("count()", axis=alt.Axis(title='Frequency'))
+).transform_filter(
+    brush
+)
+
+chart = chart1 | chart2
+chart
