@@ -70,7 +70,7 @@ st.pyplot(fig)
 
 st.write("""Note that I have added things to the requirements.txt file """)
 st.code("""
-streamlit
+streamlit==1.36.0
 altair
 pandas
 matplotlib
