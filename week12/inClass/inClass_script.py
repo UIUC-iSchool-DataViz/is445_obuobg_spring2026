@@ -59,3 +59,11 @@ import pandas as pd
 df = pd.read_csv(mobility_url)
 
 st.write(df)
+
+# using matplotlib to add plots
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots()
+df['Graduation'].plot(kind='hist',ax=ax)
+#plt.show() # typically this won't work with streamlit
+st.pyplot(fig)
