@@ -69,3 +69,9 @@ df['Graduation'].plot(kind='hist',ax=ax)
 st.pyplot(fig)
 
 st.write("""Note that I have added things to the requirements.txt file """)
+st.code("""
+streamlit
+altair
+pandas
+matplotlib
+""")
