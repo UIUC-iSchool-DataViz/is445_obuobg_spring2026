@@ -46,6 +46,7 @@ st.markdown("""Add in altair charts with layout elements
 
 col1,col2 = st.columns([0.7, 0.25])
 col1.altair_chart(scatters, theme='streamlit',
-                  width='content')
+                    use_container_width=True) # for older version, same in README
+                  # width='content') # for newer version of streamlit
 col2.markdown("Here is some text on the side of the plot.")
 col2.image('https://64.media.tumblr.com/49cca6608ce97d52e3d1d8c1b2b563cd/tumblr_inline_pmof1hYEgO1ud0rrx_640.jpg')
