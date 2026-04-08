@@ -53,3 +53,9 @@ col2.image('https://64.media.tumblr.com/49cca6608ce97d52e3d1d8c1b2b563cd/tumblr_
 
 # add in more things for Week 12
 st.header('Day 2 (Week 12)')
+
+# read in data with pandas
+import pandas as pd
+df = pd.read_csv(mobility_url)
+
+st.write(df)
