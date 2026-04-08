@@ -6,9 +6,9 @@ description: >-
 date: 2025-04-16
 ---
 
-## Last Week
+## This Week/Last Week
 
-<img src="../week12/images/week12.png">
+<img src="../week12/images/week12.png" alt="Reminder mindmap visualization of where we are in the class -- recently been working on Streamlit visualizations.">
 
 notes:
 so far, we've been covering a bit of javascript and vega-lite as some new viz engines and using them in Jekyll and Streamlit
@@ -16,9 +16,9 @@ so far, we've been covering a bit of javascript and vega-lite as some new viz en
 
 ---
 
-## This Week
+## (More) This Week
 
-<img src="../week13/images/week13.png">
+<img src="../week13/images/week13.png" alt="Updated mindmap visualization of where we are in the class, now Graphics/SciViz and Rendering has been included.">
 
 notes:
 
@@ -62,7 +62,7 @@ notes: so today we're going to talk a bit about some "high-end" graphics tools  
 
 We'll have a talk from someone in the Advanced Visualization Lab in Week 14 and she'll touch on this a bit more as well
 
-**make sure you have your audio settings correct!**
+**make sure you have your audio settings correct for sharing audio!**
 
 ---
 
@@ -102,7 +102,7 @@ notes: note these can also be displayed on 3D screens, but the way that happens 
  * Real-time vs Pre-Rendered graphics
  * Frames vs Timesteps
 
-<img src="images/graphics3d/timestepframestep.gif" width="600"/>
+<img src="images/graphics3d/timestepframestep.gif" width="600" alt="Gif of a 'pre-rendering' test image from a documentary produced by the Advanced Visualization Lab at NCSA.  The video is 'choppy' as the frame rate of the rotated image is much shorter than the update of the simulation time steps from the data itself."/>
 
 notes:
 real-time graphics refresh the screen faster than the eye perceives, usually at least 30 times a second. Pre-rendered can take all the time in the world.
@@ -154,7 +154,7 @@ This youtube video actually only plays at 60FPS, so the 120 ball is kind of poin
  * 1920 x 1080 - high definition or HD (16:9)
  * 3840 x 2160 - ultra high definition or UHD or 4k (16:9)
 
-<img src="images/graphics3d/resolutions.png" width="600"/>
+<img src="images/graphics3d/resolutions.png" width="600" alt="A nested area chart showing different screen resolutions (starting at 4k down to Standard Definition of 480p)."/>
 
 notes:
 Often people refer to these formats as 1k or 2k or 4k in graphics, referring to the number of pixels along the horizontal axis.
@@ -189,7 +189,7 @@ All 3D geometry is represented as:
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/points.png" width="100%">
+	<img src="images/graphics3d/points.png" width="100%" alt="The 'test' graphics object in the Houdini special effects software, show as a three-dimensional object made up of points.">
 </div>
 
 
@@ -209,7 +209,7 @@ All 3D geometry is represented as:
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/edges.png" width="100%">
+	<img src="images/graphics3d/edges.png" width="100%" alt="The 'test' graphics object in the Houdini special effects software, show as a three-dimensional object made up of points *connected* into edges such that the teapot is shown as a wireframe.">
 </div>
 
 ---
@@ -227,7 +227,7 @@ All 3D geometry is represented as:
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/surfaces.png" width="100%">
+	<img src="images/graphics3d/surfaces.png" width="100%" alt="The 'test' graphics object in the Houdini special effects software, show as a three-dimensional object made up of edges *connected* into surfaces such that the teapot is shown as a surface.">
 </div>
 
 
@@ -249,7 +249,7 @@ All 3D geometry is represented as:
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/voxels.png" width="100%">
+	<img src="images/graphics3d/voxels.png" width="100%" alt="The 'test' graphics object in the Houdini special effects software, show as a three-dimensional object made up of 3d-pixels or 'voxels'.">
 </div>
 
 
@@ -282,7 +282,7 @@ Surfaces can be encoded as:
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/primitive.png" width="100%">
+	<img src="images/graphics3d/primitive.png" width="100%" alt="Image of a 'primitive' type of graphical three-dimensional object (a sphere) showing the object represented as a smooth, 3D mathematical function.">
 </div>
 
 
@@ -303,7 +303,7 @@ Surfaces can be encoded as:
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/quadsSmall.jpg" width="100%">
+	<img src="images/graphics3d/quadsSmall.jpg" width="100%" alt="The same spherical object, but now presented as a connected set of rectangles showing a less smooth sphere face.">
 </div>
 
 
@@ -324,7 +324,7 @@ Surfaces can be encoded as:
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/triangles.png" width="100%">
+	<img src="images/graphics3d/triangles.png" width="100%" alt="The same spherical object, but now presented as a connected set of *triangles* showing a less smooth sphere face than in the primitive representation but more smooth than when using rectangles.">
 </div>
 
 
@@ -346,7 +346,7 @@ Surfaces can be encoded as:
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/nurbs.png" width="100%">
+	<img src="images/graphics3d/nurbs.png" width="100%" alt="A mixed mathematical and quad representation of a sphere -- while rectangles are shown, they are more easily and smoothly deformed by picking up the 'floating' nurb points surrounding the surface.">
 </div>
 
 notes:
@@ -370,7 +370,7 @@ Surfaces can be encoded as:
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/subdivs.png" width="100%">
+	<img src="images/graphics3d/subdivs.png" width="100%" alt="A quad representation of a sphere where the rectangle around the equator have been subdivided from their original larger rectangles.">
 </div>
 
 
@@ -390,7 +390,7 @@ Datasets with many fields called "attributes":
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/xyz.gif" width="100%">
+	<img src="images/graphics3d/xyz.gif" width="100%" alt="Gif of a donut modeled in three-dimensional shape showing various transformations (motion along x/y/z axis and rotations) as well as rotation along an axis and as well as scaling -- making the donut bigger smaller in all or in one direction (z-axis).">
 </div>
 
 
@@ -413,7 +413,7 @@ Datasets with many fields called "attributes":
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/attributes.gif" width="100%">
+	<img src="images/graphics3d/attributes.gif" width="100%" alt="Further transformations of the donut object in three-dimensional space.  First transformation is making the donut fatter or skinnier (larger/smaller donut hole), followed by deforming the surface to make it chunky, and finally twisting the donut along an axis.">
 </div>
 
 
@@ -560,7 +560,7 @@ basically, a shader tells a light ray that hits an object, "hey!" you hit someth
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/dull.png" width="100%">
+	<img src="images/graphics3d/dull.png" width="100%" alt="Houdini software 'test' teapot without any photorealistic elements added.">
 </div>
 
 notes:
@@ -577,7 +577,7 @@ this is a very dull and not-realistic looking image
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/light.png" width="100%">
+	<img src="images/graphics3d/light.png" width="100%" alt="Houdini software 'test' teapot with a lighting source added making the teapot look more realistic by adding shadows.">
 </div>
 
 
@@ -593,7 +593,7 @@ this is a very dull and not-realistic looking image
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/mblur.png" width="100%">
+	<img src="images/graphics3d/mblur.png" width="100%" alt="Houdini software 'test' teapot motion blur added to make the teapot appear to be in motion.">
 </div>
 
 
@@ -610,7 +610,7 @@ this is a very dull and not-realistic looking image
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/dof.png" width="100%">
+	<img src="images/graphics3d/dof.png" width="100%" alt="Houdini software 'test' teapot a depth of field filter added so foreground image looks sharper than background.">
 </div>
 
 ---
@@ -627,7 +627,7 @@ this is a very dull and not-realistic looking image
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/background.png" width="100%">
+	<img src="images/graphics3d/background.png" width="100%" alt="Houdini software 'test' teapot a more realistic background 'seascape' image added to place the teapot in a more realistic environment.">
 </div>
 
 ---
@@ -645,7 +645,7 @@ this is a very dull and not-realistic looking image
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/ambient.png" width="100%">
+	<img src="images/graphics3d/ambient.png" width="100%" alt="Houdini software 'test' teapot a lighting 'ambient occlusion' algorithm added so shadows look more realistic.">
 </div>
 
 ---
@@ -664,7 +664,7 @@ this is a very dull and not-realistic looking image
 </div>
 
 <div class="right">
-	<img src="images/graphics3d/detail.png" width="100%">
+	<img src="images/graphics3d/detail.png" width="100%" alt="Houdini software 'test' teapot with all photorealistic elements added.  Teapot has now been duplicated so there are many objects of different sizes and different locations making the scene look more realistic for a 'crowd' of teapots.">
 </div>
 
 ---
@@ -750,7 +750,123 @@ notes: we haven't covered any viz effects tools but here are a few to be aware o
 
 ## Scientific Viz Tools VERSUS Visual Effects Tools
 
-<img src="images/graphics3d/versus.png" width="800"/>
+<style>
+  td { text-align: center; }
+  td:first-child { text-align: left; }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th><img src="https://yt-project.org/img/yt_logo.png" width="15%" alt="Image of the yt logo"></th>
+      <th><img src="https://cdn.conceptartempire.com/images/06/5374/00-featuredalt-houdini-logo.jpg" width="30%" alt="Houdini VFX software logo"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Data analysis</td><td style="text-align:center">X</td><td></td></tr>
+    <tr><td>Runs on supercomputers</td><td style="text-align:center">X</td><td></td></tr>
+    <tr><td>Can read complex scientific data</td><td style="text-align:center">X</td><td></td></tr>
+    <tr><td>Open source</td><td style="text-align:center">X</td><td></td></tr>
+    <tr><td>Artist-friendly</td><td></td><td style="text-align:center">X</td></tr>
+    <tr><td>Can render geometry</td><td></td><td style="text-align:center">X</td></tr>
+    <tr><td>Can render multiple objects in a scene</td><td></td><td style="text-align:center">X</td></tr>
+    <tr><td>Lighting</td><td></td><td style="text-align:center">X</td></tr>
+  </tbody>
+</table>
+
+---
+
+## Scientific Viz Tools VERSUS Visual Effects Tools
+
+
+<style>
+  td { text-align: center; }
+  td:first-child { text-align: left; }
+  th img { width: 150px; height: auto; }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th><img src="https://yt-project.org/img/yt_logo.png" alt="Image of the yt logo"></th>
+      <th><img src="https://cdn.conceptartempire.com/images/06/5374/00-featuredalt-houdini-logo.jpg"  alt="Houdini VFX software logo"></th>
+      <th><img src="http://www.ytini.com/img/ytini_logo_horizontal_left.png"  alt="ytini project logo"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Data analysis</td><td style="text-align:center">X</td><td></td><td></td></tr>
+    <tr><td>Runs on supercomputers</td><td style="text-align:center">X</td><td></td><td></td></tr>
+    <tr><td>Can read complex scientific data</td><td style="text-align:center">X</td><td></td><td style="text-align:center">X</td></tr>
+    <tr><td>Open source</td><td style="text-align:center">X</td><td></td><td style="text-align:center">X</td></tr>
+    <tr><td>Artist-friendly</td><td></td><td style="text-align:center">X</td><td style="text-align:center">X</td></tr>
+    <tr><td>Can render geometry</td><td></td><td style="text-align:center">X</td><td style="text-align:center">X</td></tr>
+    <tr><td>Can render multiple objects in a scene</td><td></td><td style="text-align:center">X</td><td style="text-align:center">X</td></tr>
+    <tr><td>Lighting</td><td></td><td style="text-align:center">X</td><td style="text-align:center">X</td></tr>
+  </tbody>
+</table>
+
+[ytini](www.ytini.com)
+
+
+---
+
+## Scientific Viz Tools VERSUS Visual Effects Tools
+
+
+<style>
+  table { border-collapse: collapse; }
+  td { text-align: center; }
+  td:first-child { text-align: left; }
+  th img { width: 150px; height: auto; }
+  .ytini-col { border-left: 3px solid black !important; border-right: 3px solid black !important; }
+  .ytini-top { border-top: 3px solid black !important; }
+  .ytini-bottom { border-bottom: 3px solid black !important; }
+  .highlight-top { border-top: 3px solid black !important; }
+  .highlight-bottom { border-bottom: 3px solid black !important; }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th><img src="https://yt-project.org/img/yt_logo.png" alt="Image of the yt logo"></th>
+      <th><img src="https://cdn.conceptartempire.com/images/06/5374/00-featuredalt-houdini-logo.jpg" alt="Houdini VFX software logo"></th>
+      <th><img src="http://www.ytini.com/img/ytini_logo_horizontal_left.png" alt="ytini project logo"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Data analysis</td><td style="text-align:center">X</td><td></td><td></td></tr>
+    <tr><td>Runs on supercomputers</td><td style="text-align:center">X</td><td></td><td></td></tr>
+    <tr>
+      <td class="highlight-top highlight-bottom">Can read complex scientific data</td>
+      <td class="highlight-top highlight-bottom" style="text-align:center">X</td>
+      <td class="highlight-top highlight-bottom"></td>
+      <td class="ytini-col ytini-top highlight-top highlight-bottom" style="text-align:center">X</td>
+    </tr>
+    <tr><td>Open source</td><td style="text-align:center">X</td><td></td><td class="ytini-col" style="text-align:center">X</td></tr>
+    <tr><td>Artist-friendly</td><td></td><td style="text-align:center">X</td><td class="ytini-col" style="text-align:center">X</td></tr>
+    <tr><td>Can render geometry</td><td></td><td style="text-align:center">X</td><td class="ytini-col" style="text-align:center">X</td></tr>
+    <tr><td>Can render multiple objects in a scene</td><td></td><td style="text-align:center">X</td><td class="ytini-col" style="text-align:center">X</td></tr>
+    <tr><td>Lighting</td><td></td><td style="text-align:center">X</td><td class="ytini-col ytini-bottom" style="text-align:center">X</td></tr>
+  </tbody>
+</table>
+
+[ytini](www.ytini.com)
+
+### More from the NCSA's Advanced Visualization Lab next class!
+
+notes:
+several of us at the NCSA worked on ytini so that Houdini could use some of the features of yt natively!
+
+This is also true of Dr. Naiman's work on Astroblend.
+
+---
+
+## Scientific Viz Tools VERSUS Visual Effects Tools
+
+<img src="images/graphics3d/versus.png" width="800" alt="Table "/>
 
 notes: here is a quick comparison chart to show key differences between a package like yt  & a special effects tool like houdini
 
