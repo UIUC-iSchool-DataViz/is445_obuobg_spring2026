@@ -75,3 +75,5 @@ altair
 pandas
 matplotlib
 """)
+
+st.subheader('Quick example widget')
