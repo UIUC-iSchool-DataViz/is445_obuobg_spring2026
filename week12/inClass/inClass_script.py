@@ -117,4 +117,5 @@ chart2 = alt.Chart(mobility_url).mark_bar().encode(
 )
 
 chart = chart1 | chart2
-chart
+st.altair_chart(chart, theme='streamlit',
+                    use_container_width=True) 
