@@ -792,7 +792,7 @@ notes: we haven't covered any viz effects tools but here are a few to be aware o
       <th></th>
       <th><img src="https://yt-project.org/img/yt_logo.png" alt="Image of the yt logo"></th>
       <th><img src="https://cdn.conceptartempire.com/images/06/5374/00-featuredalt-houdini-logo.jpg"  alt="Houdini VFX software logo"></th>
-      <th><img src="https://www.ytini.com/img/ytini_logo_horizontal_left.png"  alt="ytini project logo"></th>
+      <th><img src="images/graphics3d/ytini_logo_horizontal_left.png"  alt="ytini project logo"></th>
     </tr>
   </thead>
   <tbody>
@@ -836,7 +836,7 @@ a project called "ytini" was built to help interface with these scientific softw
       <th></th>
       <th><img src="https://yt-project.org/img/yt_logo.png" alt="Image of the yt logo"></th>
       <th><img src="https://cdn.conceptartempire.com/images/06/5374/00-featuredalt-houdini-logo.jpg" alt="Houdini VFX software logo"></th>
-      <th><img src="https://www.ytini.com/img/ytini_logo_horizontal_left.png" alt="ytini project logo"></th>
+      <th><img src="images/graphics3d/ytini_logo_horizontal_left.png" alt="ytini project logo"></th>
     </tr>
   </thead>
   <tbody>
