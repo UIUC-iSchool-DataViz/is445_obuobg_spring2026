@@ -1,11 +1,11 @@
 ---
-title: In Class Example (Week 11 and 13)
+title: Example for IS445
 emoji: 🏢
-colorFrom: green
+colorFrom: blue
 colorTo: gray
 sdk: streamlit
 sdk_version: 1.39.0
-app_file: Home.py
+app_file: inClass_script.py
 pinned: false
 license: mit
 ---

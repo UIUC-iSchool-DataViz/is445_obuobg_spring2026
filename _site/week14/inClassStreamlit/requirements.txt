@@ -1,6 +1,4 @@
-streamlit==1.39.0
+streamlit
 altair
-numpy
-matplotlib
 pandas
-#io
+matplotlib
