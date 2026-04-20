@@ -1,14 +1,14 @@
 ---
-title: Lecture 14.1 - Announcements, Final Project Info
+title: Lecture 14.1 - Announcements, More Streamlit, Final Project Info
 layout: lecture
 description: >-
- A few announcements!
+ A few announcements before doing some final things with Streamlit.
 date: 2024-12-02
 ---
 
 ## Last/This Week
 
-<img src="../week13/images/week13.png">
+<img src="../week13/images/week13.png" alt="Mindmap visualization of topics covered in the course.  Latest include Scientific Visualization (started last week with the guest lecture), Jekyll and Streamlit+HuggingFace which are options for the final project.">
 
 notes:
 we've been finishing things up with streamlit and last week had a guest lecture from AVL!
@@ -27,6 +27,19 @@ we'll also "talk" more about this in Week 15 with some pre-recorded materials an
 
 you can stay in the main room, or there will be breakout rooms for you as well!
 
+---
+
+## Announcements and Reminders: Extra Credit Assignments
+
+*No extensions, no late assignments.*
+
+*MAX Homework score is 40%.*
+
+notes:
+keep in mind that we have 2 extra credit assignments
+
+also recall that the maximum you can get on the homework is 100% of that category, so if you have a perfect HW score, you can't do better than that!
+
 **go over where EC assignments are!!**
 
 ---
@@ -39,9 +52,9 @@ notes:
 
 1. mention that we did "get started" -- so the setup part is all done
 2. develop -- **click on this!** then go to
-  * concepts -- we really just did the first 2 (archtecture and multipage), but connections/secrets -- can connect to remote data API OR your own HF data
+  * concepts -- we really just did the first 2 (architecture and multipage), but connections/secrets -- can connect to remote data API OR your own HF data
   * api reference -- also just did a subset of these elements! **go through text**
-3. Tutorials -- walk throughs on how to build chat apps and LLMs
+3. Tutorials -- walk-throughs on how to build chat apps and LLMs
 
 ---
 
@@ -66,13 +79,13 @@ Other [example HuggingFace Spaces](https://huggingface.co/spaces) you can build 
 ## Notes on Final, Part 3
 
 Due dates:
- 1. First draft of Part 3 (3.1) -- due Dec 10th, will get feedback course participants 
- 1. Post your link in the Canvas forum to get feedback from classmates -- Dec 11 (**all group members must do this**)
- 1. Provide feedback for 3 randomly assigned classmates -- due Dec 16
- 1. Final chance to resubmit your Part 3 (3.4) -- Dec 18
- 1. Submit video about final project -- Dec 18
+ 1. First draft of Part 3 (3.1) -- due Dec Apr 29, will get feedback course participants 
+ 1. Post your link in the Canvas forum to get feedback from classmates -- Apr 29 (**all group members must do this**)
+ 1. Provide feedback for 3 randomly assigned classmates -- due May 6
+ 1. Final chance to resubmit your Part 3 (3.4) -- May 8
+ 1. Submit video about final project -- May 8
  
-**Please be aware these are hard deadlines -- no extensions available**
+**Please be aware these are hard deadlines -- no extensions or late submissions available**
  
 notes:
 go to pages!!
@@ -103,7 +116,7 @@ notes:
 
 ## Final Project, Part 2
 
-You should be able to take a look as a group, and we'll look again next week!
+Check in on questions!
 
 notes:
 
