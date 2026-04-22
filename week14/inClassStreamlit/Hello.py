@@ -10,5 +10,6 @@ st.set_page_config(
 # this sidebar was added to be able to support multi-page apps
 st.sidebar.success("Select a Page")
 
-st.title('This is my fancy app!')
+st.title('This is my fancy multi-page app!')
+st.write("Expand the sidebar to see other views of the data.")
 
