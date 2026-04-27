@@ -79,7 +79,7 @@ Other [example HuggingFace Spaces](https://huggingface.co/spaces) you can build 
 ## Notes on Final, Part 3
 
 Due dates:
- 1. First draft of Part 3 (3.1) -- due Dec Apr 29, will get feedback course participants 
+ 1. First draft of Part 3 (3.1) -- due Apr 29, will get feedback course participants 
  1. Post your link in the Canvas forum to get feedback from classmates -- Apr 29 (**all group members must do this**)
  1. Provide feedback for 3 randomly assigned classmates -- due May 6
  1. Final chance to resubmit your Part 3 (3.4) -- May 8

@@ -52,7 +52,7 @@ col2.markdown("Here is some text on the side of the plot.")
 col2.image('https://64.media.tumblr.com/49cca6608ce97d52e3d1d8c1b2b563cd/tumblr_inline_pmof1hYEgO1ud0rrx_640.jpg')
 
 # add in more things for Week 12
-st.header('Day 2 (Week 12)')
+st.header('More with Pandas and Matplotlib')
 
 # read in data with pandas
 import pandas as pd
@@ -118,4 +118,5 @@ chart2 = alt.Chart(mobility_url).mark_bar().encode(
 
 chart = chart1 | chart2
 st.altair_chart(chart, theme='streamlit',
-                    use_container_width=True) 
+                width='stretch')
+                    #use_container_width=True) 
